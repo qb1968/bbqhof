@@ -1,0 +1,32 @@
+import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link'
+import Logo from "/images/gallery/Logo (3).png"
+
+const SingleBannerV1 = ({ banner }) => {
+    const { thumb, subTitle, title1, title2, list1, list2, list3, btnLink, btnText } = banner
+
+    return (
+        <>
+            <div className="slide-item" style={{ backgroundImage: `url(images/main-slider/${thumb}` }}>
+                <div className="auto-container">
+                    <div className="content-box">
+                       
+                        <span className="title">{subTitle}</span>
+                        <span> <img className="title" src={Logo} style={{ width: 250 }} /></span>
+                        <h2> {title1} <br /> {title2} </h2>
+                        <ul className="info-list">
+                           
+                            <li><span className="icon fa fa-map-marker-alt"></span>{list3}</li>
+
+                        </ul>
+                        
+                           
+                        
+                    </div>
+                </div>
+            </div >
+        </>
+    );
+};
+
+export default SingleBannerV1;
