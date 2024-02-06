@@ -2,7 +2,7 @@ import React from 'react';
 import AboutV1Data from '../../jsonData/about/AboutV1Data.json'
 import { HashLink as Link } from 'react-router-hash-link'
 import ReactWOW from 'react-wow';
-import Logo from "/images/gallery/Logo (3).png"
+
 
 const AboutV1 = () => {
     return (
