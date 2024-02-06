@@ -14,9 +14,7 @@ const EventDetailsContent = () => {
                     </div>
                     <div className="content-box">
                         <div className="speaker-info">
-                            <figure className="thumb">
-                                <img src={`/images/resource/${ScheduleV1Data[parentId - 1].tabData[childId - 1].speakerThumb}`} alt="image" />
-                            </figure>
+                           
                             <h5 className="name">{ScheduleV1Data[parentId - 1].tabData[childId - 1].name}</h5>
                             <span className="designation">{ScheduleV1Data[parentId - 1].tabData[childId - 1].designation}</span>
                         </div>

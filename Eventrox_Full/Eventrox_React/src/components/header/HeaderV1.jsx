@@ -87,10 +87,10 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                         <div className="logo-box">
                             {whiteLogo ?
                                 <>
-                                    <div className="logo"><Link to="/#"><img src="/images/logo.png" alt="image" /></Link></div>
+                                    <div className="logo"><Link to="/#"><img src="/images/Logo (3).png" alt="image" style={{width:100}} /></Link></div>
                                 </>
                                 : <>
-                                    <div className="logo"><Link to="/#"><img src="/images/logo-2.png" alt="image" /></Link></div>
+                                    <div className="logo"><Link to="/#"><img src="/images/Logo (3).png" alt="image" style={{width:100}} /></Link></div>
                                 </>}
                         </div>
                         <div className="nav-outer clearfix">
@@ -101,9 +101,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                                 </div>
                             </nav>
                             <div className="outer-box d-none d-lg-block">
-                                <div className="search-box-outer">
-                                    <div className="search-box-btn"><span className={`flaticon-search`} onClick={searchOpen}></span></div>
-                                </div>
+                                
                                 <div className="btn-box">
                                     <Link to="/buy-ticket#" className="theme-btn btn-style-one"><span className="btn-title">Get Tickets</span></Link>
                                 </div>

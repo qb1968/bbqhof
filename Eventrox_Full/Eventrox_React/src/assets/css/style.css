@@ -2618,7 +2618,7 @@ img {
 	top: -10%;
 	height: 120%;
 	width: 120%;
-	background-image: url(../images/icons/shape-2.png);
+	background-image: url(../images/resource/shape-2.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 100%;
@@ -8370,7 +8370,7 @@ img {
 .main-footer {
 	position: relative;
 	background-color: #101130;
-	background-image: url(../images/background/9.jpg);
+	
 }
 
 .main-footer .widgets-section {

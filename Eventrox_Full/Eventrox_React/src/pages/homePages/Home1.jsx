@@ -23,16 +23,16 @@ const Home1 = () => {
                 <BannerV1 />
                 <ComingSoonV1 />
                 <AboutV1 />
-                <FeatureV1 />
+                {/* <FeatureV1 /> */}
                 <SpeakerV1 />
-                <FactV1 />
-                <ScheduleV1 />
+                {/* <FactV1 /> */}
+                {/* <ScheduleV1 /> */}
                 <PriceV1 />
-                <VideoV1 />
-                <WhyChooseV1 />
+                {/* <VideoV1 /> */}
+                {/* <WhyChooseV1 /> */}
                 <ClientV1 />
-                <RegisterV1 />
-                <BlogV1 hasShape={true} />
+                {/* <RegisterV1 /> */}
+                {/* <BlogV1 hasShape={true} /> */}
                 <FooterV1 />
             </div>
         </>

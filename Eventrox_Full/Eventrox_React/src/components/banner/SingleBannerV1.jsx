@@ -12,10 +12,10 @@ const SingleBannerV1 = ({ banner }) => {
                     <div className="content-box">
                        
                         <span className="title">{subTitle}</span>
-                        <span> <img className="title" src={Logo} style={{ width: 250 }} /></span>
+                       
                         <h2> {title1} <br /> {title2} </h2>
                         <ul className="info-list">
-                           
+                            <h3 style={{color:"white"}}>{list1}</h3 >
                             <li><span className="icon fa fa-map-marker-alt"></span>{list3}</li>
 
                         </ul>

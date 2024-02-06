@@ -6,13 +6,11 @@
         "tabData": [
             {
                 "id": 1,
-                "eventThumb": "event-detail.jpg",
+                "eventThumb": "Oak Ridge Boys.jpg",
                 "blockClass": "",
                 "sessionStart": "9.00 AM",
                 "sessionEnd": "10.00 AM",
-                "speakerThumb": "thumb-1.jpg",
-                "name": "Ashli Scroggy",
-                "designation": "Founder & CEO",
+                
                 "title": "Modern Marketing Summit Sydney 2018",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et",
                 "btnLink": "event-detail",
