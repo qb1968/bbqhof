@@ -11,7 +11,7 @@ const SpeakerV1 = () => {
                        
                         <h2>Nominees</h2>
                     </div>
-                    <div className="row">
+                    <div className="row" style={{display:'flex',justifyContent:'space-evenly'}}>
                         {SpeakerV1Data.map(speaker =>
                             <div className="speaker-block col-lg-3 col-md-6 col-sm-12" key={speaker.id}>
                                 <SingleSpeakerV1 speaker={speaker} />

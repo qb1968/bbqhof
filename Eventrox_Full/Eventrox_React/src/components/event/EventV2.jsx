@@ -8,7 +8,7 @@ const EventV2 = () => {
                 <div className="auto-container">
                     <div className="row">
                         <div className="info-column col-lg-6 col-md-12 col-sm-12 order-lg-2 ps-30 ">
-                            <EventInfo />
+                            
                         </div>
                         <div className="map-column col-lg-6 col-md-12 col-sm-12">
                             <div className="map-outer">

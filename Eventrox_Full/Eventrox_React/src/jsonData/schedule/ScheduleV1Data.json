@@ -6,19 +6,16 @@
         "tabData": [
             {
                 "id": 1,
-                "eventThumb": "Oak Ridge Boys.jpg",
-                "blockClass": "",
-                "sessionStart": "9.00 AM",
-                "sessionEnd": "10.00 AM",
+                "eventThumb": "pig1024.png",
                 
-                "title": "Modern Marketing Summit Sydney 2018",
+                "title": "NCBBQHOF Ceremony",
                 "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor incididunt labore et",
                 "btnLink": "event-detail",
                 "btnText": "Read More"
             },
             {
                 "id": 2,
-                "eventThumb": "event-detail-2.jpg",
+                "eventThumb": "Oak Ridge Boys.jpg",
                 "blockClass": "even",
                 "sessionStart": "10.00 AM",
                 "sessionEnd": "11.00 AM",
@@ -32,7 +29,7 @@
             },
             {
                 "id": 3,
-                "eventThumb": "event-detail-3.jpg",
+                "eventThumb": "Oak Ridge Boys.jpg",
                 "blockClass": "",
                 "sessionStart": "11.00 AM",
                 "sessionEnd": "12.00 AM",

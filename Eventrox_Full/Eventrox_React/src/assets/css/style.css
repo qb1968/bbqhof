@@ -1063,7 +1063,7 @@ img {
 .main-menu .navigation>li>a {
 	position: relative;
 	display: block;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 30px;
 	font-weight: 500;
 	padding: 10px 0;
@@ -1791,7 +1791,7 @@ img {
 	height: 100%;
 	width: 100%;
 	background-color: #000000;
-	opacity: .70;
+	opacity: .25;
 	content: "";
 }
 
@@ -3583,7 +3583,7 @@ img {
 
 .speakers-section {
 	position: relative;
-	padding: 120px 0 90px;
+	
 }
 
 .speakers-section:before {
@@ -3592,7 +3592,7 @@ img {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(28, 139, 210, .50);
+	background-image: url(https://media.giphy.com/media/U3qYN8S0j3bpK/giphy.gif);
 	content: "";
 }
 

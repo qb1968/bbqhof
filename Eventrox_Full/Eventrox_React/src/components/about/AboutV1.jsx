@@ -7,7 +7,7 @@ import ReactWOW from 'react-wow';
 const AboutV1 = () => {
     return (
       <>
-        <section className="about-section">
+        <section className="about-section" style={{backgroundColor:"#dedede"}}>
           {/* <div className="anim-icons full-width">
                     <span className="icon icon-circle-blue"><img src={Logo }/></span>
                     <ReactWOW animation='fadeInLeft'>
@@ -24,37 +24,46 @@ const AboutV1 = () => {
                   <div className="sec-title">
                     <span className="title">ABOUT </span>
                     <h2>Welcome </h2>
-                    <div className="text">
+                    <div className="text" style={{ color: "black" }}>
                       The North Carolina Bar-B-Q Hall of Fame will unite and
                       give accreditation to the men and women who through years
                       and decades of hard work and literal sweat and blood
                       created and established North Carolina’s worldwide famous
                       reputation of pit cooked pork barbq .
                     </div>
-                    <div className="text">
+                    <div className="text" style={{ color: "black" }}>
                       These BarBQ pioneers inducted into the hof have been
                       described individually and rightly so as, The Legend, The
                       godfather, The King, The Capital of BarBQ, The Prime
                       Minister, Icon, and many other titles from peers to local
                       and national newspapers, magazine authors, tv
-                      personalities, etc. spreading worldwide. They have
-                      numerous awards on top of awards, and recognition from the
-                      elite publicist to date. The approval of politicians, high
-                      profile athletes, entertainers, and movie stars have added
-                      to the debate, (sometimes heated) between the locals and
-                      citizens of North Carolina of who has the best BarBQ,
-                      which has proven to be an impossible task! But now the
-                      accolades can be summed up in the brotherhood and
-                      sisterhood of their own by entering into the prestigious
-                      North Carolina Bar-B-Q Hall of Fame. The Hall of Famers
-                      also have more in common than the above listed credits,
-                      the long hours of hard work, and sacrifices that are only
-                      known by them, the reward of working with their families,
-                      and respect and appreciation for other ambassadors of
-                      North Carolina BarBQ. Being inducted into the Hall of Fame
-                      is A CROWNING ACHIEVEMENT!
+                      personalities, etc. spreading worldwide.
                     </div>
-                    <div className="text">
+                    <div
+                      className="text"
+                      style={{ width: 1000, color: "black" }}
+                    >
+                      They have numerous awards on top of awards, and
+                      recognition from the elite publicist to date. The approval
+                      of politicians, high profile athletes, entertainers, and
+                      movie stars have added to the debate, (sometimes heated)
+                      between the locals and citizens of North Carolina of who
+                      has the best BarBQ, which has proven to be an impossible
+                      task! But now the accolades can be summed up in the
+                      brotherhood and sisterhood of their own by entering into
+                      the prestigious North Carolina Bar-B-Q Hall of Fame. The
+                      Hall of Famers also have more in common than the above
+                      listed credits, the long hours of hard work, and
+                      sacrifices that are only known by them, the reward of
+                      working with their families, and respect and appreciation
+                      for other ambassadors of North Carolina BarBQ. Being
+                      inducted into the Hall of Fame is A CROWNING ACHIEVEMENT!
+                    </div>
+
+                    <div
+                      className="text"
+                      style={{ width: 1000, color: "black" }}
+                    >
                       The North Carolina Bar-B-Q Hall of Fame recognizes and
                       preserves the original definition of North Carolina
                       Bar-B-Q which is pork cooked over live wood coals, ranging
@@ -72,7 +81,10 @@ const AboutV1 = () => {
                       electric pit cooked BarBQ has also risen to popularity and
                       is included in the best of the best BarBQ conversation.
                     </div>
-                    <div className="text">
+                    <div
+                      className="text"
+                      style={{ width: 1000, color: "black" }}
+                    >
                       The original North Carolina method of cooking pork BarBQ
                       over wood coals is a pure process with the human skill
                       element determining the quality and taste of the finished
@@ -83,7 +95,10 @@ const AboutV1 = () => {
                       eye and hand of the experienced pitmaster tested and tried
                       thru time and experience.
                     </div>
-                    <div className="text">
+                    <div
+                      className="text"
+                      style={{ width: 1000, color: "black" }}
+                    >
                       The members of the North Carolina Hall of Fame have proven
                       and earned their place in North Carolina history of BarBQ,
                       some businesses have roots going back to the 1920’s, with
@@ -108,7 +123,6 @@ const AboutV1 = () => {
                   </ReactWOW>
                 </div>
               </div>
-              
             </div>
           </div>
         </section>

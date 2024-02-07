@@ -10,7 +10,7 @@ const BuyTicket = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='schedule' />
-                <BreadCrumb title="Buy Ticket" breadCrumb="buy-ticket" />
+                
                 <BuyTicketContent />
                 <FooterV1 />
             </div>

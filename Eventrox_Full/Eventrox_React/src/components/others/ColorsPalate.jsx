@@ -58,9 +58,7 @@ const ColorsPalate = () => {
     return (
         <>
             <div className={`color-palate ${openColorPlate ? "" : "visible-palate"}`}>
-                <div className="color-trigger" onClick={openColorPlate}>
-                    <i className="fa fa-cog"></i>
-                </div>
+                
                 <div className="color-palate-head">
                     <h6>Choose Your Demo</h6>
                 </div>

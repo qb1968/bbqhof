@@ -10,7 +10,7 @@ const EventDetails = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='schedule' />
-                <BreadCrumb title="Event Detail" breadCrumb="event-detail" />
+                
                 <EventDetailsContent />
                 <FooterV1 />
             </div>

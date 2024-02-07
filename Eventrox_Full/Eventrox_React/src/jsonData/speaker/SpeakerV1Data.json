@@ -1,38 +1,62 @@
 [
     {
         "id": 1,
-        "thumb": "speaker-1.jpg",
-        "name": "Alston Bridges",
-        "designation": "Nominee"
+        "thumb": "bridges.png",
+        "name": "Alston Bridges Barbecue",
+        "name2": "Kent Bridges",
+        "designation": "Nominee",
+        "info": "The barbecue business demands a great deal of time, patience and family. Alston Bridges Barbecue in Shelby displays these important qualities and many more. It is evident that family running this particular barbecue restaurant strives on tradition and and strong sense of family pride. Today the third generation carries on this fine tradition that goes back to Warner Stamey, a barbecue legend. ",
+        "info2":"Stamey learned the craft of barbecue from Jess Swicegood and Sid Weaver in Lexington, North Carolina, while he attended high school in the late 1920's. In time, he had saved enough and decided to move back to his hometown of Shelby in 1930. Once in Shelby, Stamey shared his barbecue knowledge by teaching the skills he had acquired to his wife's brother, Alston Bridges, and Red Bridges (no relation). Alston and his wife, Mabel Wall Bridges, moved to Lexington themselves where he managed Warner Stamey's Log Cabin Barbecue for two and one half years. In 1955, Alston and Mabel returned to Shelby. The bought the Grover Street property from Stamey and opened Alston Bridges Barbecue. This exact site is where the restaurant would stay and the tradition would live on for future generations.",
+        "info3": "Alston supported the value of family pride by bringing five sons in to work beside him. Through the course of life, three of Alston's sons, Bob, Milton, and Don Bridges decided to leave the family business and pursue other careers. This left Kent and Dennis Bridges to continue the tradition. Eventually Kent acquired his brother's shares and took full rein of father's business. ",
+        "info4": "Kent has given 69 hard working years to the vision his father began when he opened Alston Bridges Barbecue. In this time, Kent's four children have literally grown up surrounded by this family tradition. The children remember fondly of playing in the basement of the restaurant while Kent and his wife, Linda, kept the business running smoothly upstairs. Other memories include Mabel Bridges, Alston's widow, teaching the children to count money and make change with the greatest of ease. It was during this time which Mabel also instilled within the children the the President's heads on the bills should be turned the same direction. As the children became older they learned to wash dishes,sweep floors and other jobs around the restaurant. Today, it is the three of these same children that share control of the leadership reins at Alston Bridges Barbecue.",
+        "info5": "The easiest directions to Alston Bridges Barbecue is US 74-Bypass in Shelby. Turn north onto Dekalb Street opposite Shelby High School. Follow Dekalb Street until it dead-ends opposite the hospital. Turn right onto Grover Street. The restaurant will be one and One half block on right."
+
     },
     {
         "id": 2,
         "thumb": "Gradys.jpg",
-        "name": "Gradys BAR-B-Q",
-        "designation": "Nominee"
+        "name": "Gradys BBQ",
+        "name2": "Steve and Gerri Grady",
+        "designation": "Nominee",
+        "info": "Bio coming soon"
     },
     {
         "id": 3,
         "thumb": "Hurseys_edited.jpg",
         "name": "HURSEY'S BAR-B-Q",
-        "designation": "Nominee"
+        "name2": "Charles Hursey",
+        "designation": "Nominee",
+        "info":"As a child, Charles Hursey from a swing set would smell the smoke and watch his father, Sylvester Hursey jr. cook pigs with wood coals and make BarBQ in a small tin building in the their backyard in Gibsonville NC. and sell his BarBQ to people coming from all around town. Later his parents Sylvester and Daisy Hursey moved the business a couple of blocks to downtown Gibsonville.",
+        "info2":"It was there they purchased the first wholesale license to sell barbq in the state of nc. in 1949. It was also there as young boy Charles would earn money as a carhop for hurseys and the local bus stop.",
+        "info3":"Charles married his high school sweetheart , ellen hicks and went full time working with his parents there in Gibsonville . Sylvester opened a second location for take out and wholesale on rauhut st in Burlington in a predominantly African American community in 19___. Charles went with his father and eventually bought the rauhut business in 19____, which he always refers to as “café”",
+        "info4":"Charles loved and supported the rauhut community, he treated everyone fairly and with respect. During the race riots in 19____ out of towners came to rauhut to join the locals for riots. Every business on rauhut was damaged or destroyed except for Hurseys barbq. The locals made sure hurseys was protected.",
+        "info5":"It was at the rauhut location where Charles reputation for great barbq was growing past Burlington and statewide, and was being recognized as who’s who in the barbq world. The rauhut location was bought by the state and torn down to widen the road. Charles moved and opened a new hursey barbq restaurant [Charles still calls a café] to south church st Burlington in 1985 where the barbq is cooked with wood, and moved the wholesale location to hwy 87 n in elon.",
+        "info6":"Hurseys barbq has grown into 5 restaurants , a catering facility and state of the art wholesale facility. Hurseys barbq has served 4 presidents, several governors , numerous congressmen and senators, high profile athletes and entertainers, but most importantly he appreciates his everyday cutomers.",
+        "info7":"Charles hursey has been featured in many magzines, tv appearances, and national newspapers, with usa today crediting hurseys barbq as the souths best, and the charlotte observers as top 10 barbq in NC worth driving out of the way for. Hurseys barbq also won the golden chicken award for the best broasted chicken in the nation. A coveted award was in 19 when hurseys barbq won the the famed north caroliona /south carlolina cook off for which state had the best barbq. As of 2024 charles and ellen hursey at 82 years young are still involved in the business , while sons chuck and chris hursey operate the restaurants and catering, and daughter carey talley manages the dine in service. All 12 grandchildren have pitched in and helped in the family business, with grandson trip hursey operating the wholesale division, grandson bud hursey managing the mebane location, grandson tyler hursey managing the south church st location along with support from grandson dj apple and Savanah hursey, and grandson coltan hursey lending a hand from time to time."
+
     },
     {
         "id": 4,
         "thumb": "wayne_edited.jpg",
-        "name": "LEXINGTON BAR-B-Q",
-        "designation": "Nominee"
+        "name": "LEXINGTON BARBECUE",
+        "name2": "Wayne Monk",
+        "designation": "Nominee",
+         "info": "Bio coming soon"
     },
     {
         "id": 5,
         "thumb": "skylight.jpeg",
-        "name": "SKYLIGHT INN BAR-B-Q",
-        "designation": "Nominee"
+        "name": "SKYLIGHT INN BBQ",
+        "name2": "Sam and Bruce Jones",
+        "designation": "Nominee",
+         "info": "Bio coming soon"
     },
     {
         "id": 6,
-        "thumb": "speaker-6.jpg",
-        "name": "STAMEYS BAR-B-Q",
-        "designation": "Nominee"
+        "thumb": "stamey.jpg",
+        "name": "STAMEYS BARBECUE",
+        "name2": "Charles Stamey",
+        "designation": "Nominee",
+         "info": "Bio coming soon"
     }
 ]

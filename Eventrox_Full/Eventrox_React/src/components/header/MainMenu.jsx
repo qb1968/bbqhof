@@ -6,13 +6,11 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
       <>
         <ul className="navigation clearfix">
           <li className={`dropdown ${parentMenu === "home" ? "current" : ""} `}>
-            <Link to="/" onClick={toggleMenu}>
+            <Link to="/#" style={{ fontWeight: "bold" }}>
               Home
             </Link>
 
-            <div className="dropdown-btn">
-              <span className="fa fa-angle-down"></span>
-            </div>
+            <div className="dropdown-btn"></div>
           </li>
           {/* <li className={`dropdown ${parentMenu === 'about' ? 'current' : ''}`}>
                     <Link to={void (0)} onClick={toggleMenu}>About</Link>
@@ -29,14 +27,15 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
           <li
             className={`dropdown ${parentMenu === "schedule" ? "current" : ""}`}
           >
-            <Link to="/event-detail/1/1#" onClick={toggleMenu}>
+            <Link to="/event-detail/1/1#" style={{ fontWeight: "bold" }}>
               Ceremony
             </Link>
-           
           </li>
-          
+
           <li>
-            <Link to="/contact#">Contact</Link>
+            <Link to="/contact#" style={{ fontWeight: "bold" }}>
+              Contact
+            </Link>
           </li>
         </ul>
       </>

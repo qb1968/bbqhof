@@ -18,10 +18,9 @@ const SpeakersDetail = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='speakers' />
-                <BreadCrumb title="Speaker's Detail" breadCrumb="speakers-detail" />
+               
                 <SpeakerInfo speakerInfo={data} />
-                <FluidV1 />
-                <PriceV3 />
+                
                 <FooterV1 />
             </div>
         </>

@@ -33,6 +33,7 @@ const BannerV1 = () => {
     return (
         <>
             <section className="banner-section">
+                
                 <div className="banner-carousel" >
                     <Slider {...settings}>
                         {BannerV1Data.map(banner =>

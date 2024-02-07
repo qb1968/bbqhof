@@ -85,13 +85,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                 <div className="main-box">
                     <div className="auto-container clearfix">
                         <div className="logo-box">
-                            {whiteLogo ?
-                                <>
-                                    <div className="logo"><Link to="/#"><img src="/images/Logo (3).png" alt="image" style={{width:100}} /></Link></div>
-                                </>
-                                : <>
-                                    <div className="logo"><Link to="/#"><img src="/images/Logo (3).png" alt="image" style={{width:100}} /></Link></div>
-                                </>}
+                            <h3 style={{color:"white",fontWeight:"bold"}}>NCBBQHOF</h3>
                         </div>
                         <div className="nav-outer clearfix">
                             <div className="mobile-nav-toggler" onClick={handleOpenMenu}><span className="icon flaticon-menu"></span></div>
@@ -103,7 +97,7 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                             <div className="outer-box d-none d-lg-block">
                                 
                                 <div className="btn-box">
-                                    <Link to="/buy-ticket#" className="theme-btn btn-style-one"><span className="btn-title">Get Tickets</span></Link>
+                                    <Link to="/buy-ticket#" className="theme-btn btn-style-one"><span className="btn-title">Get Tickets For Dinner</span></Link>
                                 </div>
                             </div>
                         </div>

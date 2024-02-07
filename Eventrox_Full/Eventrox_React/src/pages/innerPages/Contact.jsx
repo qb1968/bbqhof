@@ -10,7 +10,7 @@ const Contact = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" />
-                <BreadCrumb title="Contact Us" breadCrumb="contact" />
+                
                 <ContactPageContent />
                 <FooterV1 />
             </div>
