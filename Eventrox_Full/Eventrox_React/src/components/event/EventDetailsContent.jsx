@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import ScheduleV1Data from '../../jsonData/schedule/ScheduleV1Data.json'
+import { NavHashLink as Link } from "react-router-hash-link";
 
 const EventDetailsContent = () => {
     const { parentId, childId } = useParams();
@@ -58,6 +59,11 @@ const EventDetailsContent = () => {
                 overnight call Best Western Plus of Burlington and mention the
                 NCBBQHOF for a special discounted rate.
               </p>
+              <div className="btn-box">
+                <Link to="/buy-ticket#" className="theme-btn btn-style-one">
+                  <span className="btn-title">Get Tickets For Dinner</span>
+                </Link>
+              </div>
               <p
                 style={{
                   color: "black",
@@ -68,6 +74,7 @@ const EventDetailsContent = () => {
                 DINNER TICKETS DO NOT INCLUDE CONCERT. FOR MORE INFO ON SHOW
                 PLEASE SEE BELOW.
               </p>
+
               <div className="row two-column">
                 <div className="column col-lg-6 col-md-12">
                   <figure className="image">
