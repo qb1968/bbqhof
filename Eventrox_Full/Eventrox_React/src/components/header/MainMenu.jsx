@@ -23,7 +23,21 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
                     </ul>
                     <div className="dropdown-btn" ><span className="fa fa-angle-down"></span></div>
                 </li> */}
+          <li
+            className={`dropdown ${parentMenu === "speakers" ? "current" : ""}`}
+          >
+            <Link
+              to="/speakers#"
+              
+              style={{ fontWeight: "bold" }}
+            >
+              Nominees
+            </Link>
 
+            <div className="dropdown-btn">
+              <span className="fa fa-angle-down"></span>
+            </div>
+          </li>
           <li
             className={`dropdown ${parentMenu === "schedule" ? "current" : ""}`}
           >

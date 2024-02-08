@@ -12,12 +12,8 @@ const SpeakerInfo = ({ speakerInfo }) => {
                         <div className="image-column col-lg-4 col-md-12 col-sm-12">
                             <div className="image-box">
                                 <figure className="image"><img src={`../images/resource/${thumb}`} alt="image" /></figure>
-                                <img src={`../images/resource/hbq.jpg`} style={{padding:10}} />
-                                <img src={`../images/resource/hbq2.jpg`} style={{padding:10}} />
-                                <img src={`../images/resource/hbq4.jpg`} style={{padding:10}} />
-                                <img src={`../images/resource/hbq5.jpg`} style={{padding:10}} />
-                                <img src={`../images/resource/hbq6.jpg`} style={{padding:10}} />
-                                <img src={`../images/resource/hbq3.jpg`} style={{padding:10}} />
+                                
+                                
                                
                             </div>
                         </div>

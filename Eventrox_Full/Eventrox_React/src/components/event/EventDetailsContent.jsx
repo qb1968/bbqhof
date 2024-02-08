@@ -60,7 +60,10 @@ const EventDetailsContent = () => {
                 NCBBQHOF for a special discounted rate.
               </p>
               <div className="btn-box">
-                <Link to="/buy-ticket#" className="theme-btn btn-style-one">
+                <Link
+                  to="https://www.eventbrite.com/e/north-carolina-bbq-hall-of-fame-tickets-827953610537"
+                  className="theme-btn btn-style-one"
+                >
                   <span className="btn-title">Get Tickets For Dinner</span>
                 </Link>
               </div>

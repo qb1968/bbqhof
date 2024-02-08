@@ -7,7 +7,10 @@ import ReactWOW from 'react-wow';
 const AboutV1 = () => {
     return (
       <>
-        <section className="about-section" style={{backgroundColor:"#dedede"}}>
+        <section
+          className="about-section"
+          style={{ backgroundColor: "#dedede" }}
+        >
           {/* <div className="anim-icons full-width">
                     <span className="icon icon-circle-blue"><img src={Logo }/></span>
                     <ReactWOW animation='fadeInLeft'>
@@ -18,20 +21,35 @@ const AboutV1 = () => {
                     </ReactWOW>
                 </div> */}
           <div className="auto-container">
+            <div className="image-column col-lg-10 col-md-12 col-sm-12">
+              <div className="image-box">
+                <ReactWOW animation="fadeIn">
+                  <figure className="image">
+                    <img src="../images/resource/alliance.jpg" alt="image" />
+                  </figure>
+                </ReactWOW>
+              </div>
+            </div>
             <div className="row">
-              <div className="content-column col-lg-6 col-md-12 col-sm-12">
+              <div className="content-column col-lg-12 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="sec-title">
                     <span className="title">ABOUT </span>
                     <h2>Welcome </h2>
-                    <div className="text" style={{ color: "black" }}>
+                    <div
+                      className="text"
+                      style={{ color: "black", textAlign: "center" }}
+                    >
                       The North Carolina Bar-B-Q Hall of Fame will unite and
                       give accreditation to the men and women who through years
                       and decades of hard work and literal sweat and blood
                       created and established North Carolina’s worldwide famous
                       reputation of pit cooked pork barbq .
                     </div>
-                    <div className="text" style={{ color: "black" }}>
+                    <div
+                      className="text"
+                      style={{ color: "black", textAlign: "center" }}
+                    >
                       These BarBQ pioneers inducted into the hof have been
                       described individually and rightly so as, The Legend, The
                       godfather, The King, The Capital of BarBQ, The Prime
@@ -41,7 +59,7 @@ const AboutV1 = () => {
                     </div>
                     <div
                       className="text"
-                      style={{ width: 1000, color: "black" }}
+                      style={{ color: "black", textAlign: "center" }}
                     >
                       They have numerous awards on top of awards, and
                       recognition from the elite publicist to date. The approval
@@ -62,7 +80,7 @@ const AboutV1 = () => {
 
                     <div
                       className="text"
-                      style={{ width: 1000, color: "black" }}
+                      style={{ color: "black", textAlign: "center" }}
                     >
                       The North Carolina Bar-B-Q Hall of Fame recognizes and
                       preserves the original definition of North Carolina
@@ -81,23 +99,28 @@ const AboutV1 = () => {
                       electric pit cooked BarBQ has also risen to popularity and
                       is included in the best of the best BarBQ conversation.
                     </div>
+
                     <div
                       className="text"
-                      style={{ width: 1000, color: "black" }}
+                      style={{ color: "black", textAlign: "center" }}
                     >
                       The original North Carolina method of cooking pork BarBQ
                       over wood coals is a pure process with the human skill
                       element determining the quality and taste of the finished
-                      product. The wood coals create a distinct smoke flavor,
-                      but is NOT smoked cooked, and is not regulated by
-                      automated devices, technology, or apps adjusting or
-                      regulating the cooking process, but rather by the watchful
-                      eye and hand of the experienced pitmaster tested and tried
-                      thru time and experience.
+                      product. The wood coals create a distinct smoke flavor and
+                      are controlled by the watchful eye and hand of the
+                      pitmaster, using his/her experience and knowledge of
+                      weather temperature, humidity, wind, wood moisture etc .to
+                      produce the best outcome of great BarBQ. While a more
+                      modern process of smoked BarBQ produces an excellent dish,
+                      by using technology, automated devices, and apps has
+                      simplified the process, versus the 10 to 12 hours of
+                      continual attention, shoveling coals, and rewarding hard
+                      work of the pitmaster.
                     </div>
                     <div
                       className="text"
-                      style={{ width: 1000, color: "black" }}
+                      style={{ color: "black", textAlign: "center" }}
                     >
                       The members of the North Carolina Hall of Fame have proven
                       and earned their place in North Carolina history of BarBQ,
@@ -112,15 +135,6 @@ const AboutV1 = () => {
                       Carolina BarBQ Hall of Fame!
                     </div>
                   </div>
-                </div>
-              </div>
-              <div className="image-column col-lg-6 col-md-12 col-sm-12">
-                <div className="image-box">
-                  <ReactWOW animation="fadeIn">
-                    <figure className="image">
-                      <img src="../images/resource/alliance.jpg" alt="image" />
-                    </figure>
-                  </ReactWOW>
                 </div>
               </div>
             </div>
