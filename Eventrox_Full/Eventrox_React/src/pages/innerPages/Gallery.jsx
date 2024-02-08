@@ -10,7 +10,7 @@ const Gallery = () => {
             <div className="page-wrapper">
                 <span className="header-span"></span>
                 <HeaderV1 headerStyle="header-style-two" parentMenu='about' />
-                <BreadCrumb title="Gallery" breadCrumb="gallery" />
+                
                 <GalleryPageContent />
                 <FooterV1 />
             </div>

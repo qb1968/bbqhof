@@ -84,9 +84,9 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
                 }
                 <div className="main-box">
                     <div className="auto-container clearfix">
-                        <div className="logo-box">
-                            <h3 style={{color:"rgb(247, 0, 104)",fontWeight:"bold"}}>NCBBQHOF</h3>
-                        </div>
+                        {/* <div className="logo-box">
+                            <h3 style={{color:"white",fontFamily:"fantasy",fontSize:"48px"}}>NCBBQHOF</h3>
+                        </div> */}
                         <div className="nav-outer clearfix">
                             <div className="mobile-nav-toggler" onClick={handleOpenMenu}><span className="icon flaticon-menu"></span></div>
                             <nav className="main-menu navbar-expand-lg navbar-light">

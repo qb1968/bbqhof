@@ -1780,7 +1780,7 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	padding: 250px 0 200px;
+	padding: 110px 0 200px;
 	text-align: center;
 }
 
@@ -1864,8 +1864,8 @@ img {
 
 .banner-carousel .content-box .info-list {
 	position: relative;
-	margin-bottom: 45px;
-	opacity: 0;
+	/* margin-bottom: 45px; */
+	opacity: 5;
 	-webkit-transform: translateY(100px);
 	-moz-transform: translateY(100px);
 	-ms-transform: translateY(100px);

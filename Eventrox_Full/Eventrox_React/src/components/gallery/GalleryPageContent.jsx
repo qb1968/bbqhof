@@ -25,11 +25,11 @@ const GalleryPageContent = () => {
 
     return (
         <>
-            <section className="gallery-section">
+            <section className="gallery-section" style={{backgroundColor:"#dedede"}}>
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         <span className="title">Gallery</span>
-                        <h2>Event Gallery</h2>
+                        
                     </div>
                     <div className="row">
                         <Gallery withDownloadButton>
