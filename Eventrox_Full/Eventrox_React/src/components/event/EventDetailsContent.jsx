@@ -80,20 +80,24 @@ const EventDetailsContent = () => {
                 <div className="column col-lg-6 col-md-12">
                   <h4>The Oak Ridge Boys</h4>
                   <ul className="list-style-two">
-                    <li>American Made Farewell Tour</li>
-                    <li>Logo & company details on the WordCamp Kolkata.</li>
-                    <li>
+                    <li style={{ color: "black" }}>
+                      American Made Farewell Tour
+                    </li>
+                    <li style={{ color: "black" }}>
+                      Logo & company details on the WordCamp Kolkata.
+                    </li>
+                    <li style={{ color: "black" }}>
                       GRAMMY® Award-winning and Country Music Hall of Fame
                       members
                     </li>
-                    <li>
+                    <li style={{ color: "black" }}>
                       For tickets to this show
                       <a href="https://thelibertyshowcase.com/">Click Here</a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <p>
+              <p style={{ color: "black" }}>
                 , The Oak Ridge Boys are officially celebrating their 50th
                 Anniversary this October. With this celebration, The Oak Ridge
                 Boys are announcing their American Made: Farewell Tour! The
