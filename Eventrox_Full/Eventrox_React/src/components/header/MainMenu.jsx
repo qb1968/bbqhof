@@ -4,7 +4,7 @@ import { HashLink as Link } from 'react-router-hash-link'
 const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
     return (
       <>
-        <ul className="navigation clearfix">
+        <ul className="navigation clearfix"  >
           <li className={`dropdown ${parentMenu === "home" ? "current" : ""} `}>
             <Link to="/#" style={{ fontWeight: "bold" }}>
               Home
@@ -34,9 +34,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
               Nominees
             </Link>
 
-            <div className="dropdown-btn">
-              <span className="fa fa-angle-down"></span>
-            </div>
+           
           </li>
           <li
             className={`dropdown ${parentMenu === "schedule" ? "current" : ""}`}
@@ -44,8 +42,12 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
             <Link to="/event-detail/1/1#" style={{ fontWeight: "bold" }}>
               Ceremony
             </Link>
+           
+           
           </li>
-
+ <li> <Link to="/gallery#" style={{ fontWeight: "bold" }}>
+              Gallery
+            </Link></li>
           <li>
             <Link to="/contact#" style={{ fontWeight: "bold" }}>
               Contact

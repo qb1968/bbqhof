@@ -15,11 +15,11 @@ const SpeakerInfo = ({ speakerInfo }) => {
                   <figure className="image">
                     <img src={`../images/resource/${thumb}`} alt="image" />
                   </figure>
-                  <div className="btn-box">
+                  {/* <div className="btn-box">
                     <Link
                       to="/gallery#"
                       className="theme-btn btn-style-one"
-                    >
+                    > */}
                       <span className="btn-title">Gallery</span>
                     </Link>
                   </div>
