@@ -113,62 +113,8 @@ const BuyTicketContent = () => {
                 </p>
               </div>
 
-              <div className="form-column col-lg-4 col-md-12 col-sm-12">
-                <div className="inner-column">
-                  <div className="ticket-form">
-                    <form onSubmit={handlePurchase}>
-                      <div className="form-group">
-                        <input
-                          type="text"
-                          name="username"
-                          placeholder="Your Name"
-                          autoComplete="off"
-                          required
-                        />
-                      </div>
-                      <div className="form-group">
-                        <input
-                          type="email"
-                          name="email"
-                          placeholder="Your Email"
-                          autoComplete="off"
-                          required
-                        />
-                      </div>
-                      <div className="form-group">
-                        <input
-                          type="number"
-                          name="phone"
-                          className="no-arrows"
-                          placeholder="Phone"
-                          autoComplete="off"
-                          required
-                        />
-                      </div>
-                      <div className="form-group">
-                        <input
-                          type="number"
-                          name="qty"
-                          min="1"
-                          placeholder="Quantity"
-                          autoComplete="off"
-                          required
-                        />
-                      </div>
-
-                      <div className="form-group">
-                        <button
-                          className="theme-btn btn-style-three"
-                          type="submit"
-                          name="Submit"
-                        >
-                          <span className="btn-title">Purchase</span>
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+              
+              
             </div>
           </div>
         </section>
