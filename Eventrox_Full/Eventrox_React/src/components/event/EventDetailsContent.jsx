@@ -61,7 +61,8 @@ const EventDetailsContent = () => {
               </p>
               <div className="btn-box">
                 <Link
-                  to="https://www.eventbrite.com/e/north-carolina-bbq-hall-of-fame-tickets-827953610537"
+                  to="https://buy.stripe.com/test_9AQ9Bd2bZ76577O145"
+                  target="_blank"
                   className="theme-btn btn-style-one"
                 >
                   <span className="btn-title">Get Tickets For Dinner</span>
@@ -88,7 +89,7 @@ const EventDetailsContent = () => {
                   </figure>
                 </div>
                 <div className="column col-lg-6 col-md-12">
-                  <h4>The Oak Ridge Boys</h4>
+                  <h4 style={{ color: "black" }}>The Oak Ridge Boys</h4>
                   <ul className="list-style-two">
                     <li style={{ color: "black" }}>
                       American Made Farewell Tour
@@ -102,7 +103,9 @@ const EventDetailsContent = () => {
                     </li>
                     <li style={{ color: "black" }}>
                       For tickets to this show
-                      <a href="https://thelibertyshowcase.com/">Click Here</a>
+                      <a href="https://thelibertyshowcase.com/" target="_blank">
+                        Click Here
+                      </a>
                     </li>
                   </ul>
                 </div>

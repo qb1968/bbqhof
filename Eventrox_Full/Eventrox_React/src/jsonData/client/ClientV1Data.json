@@ -17,8 +17,12 @@
                 "clientThumb": "cb.png"
             },
             {
-                "id": 4,
+                "id": 5,
                 "clientThumb": "Shift4.png"
+            },
+            {
+                "id": 4,
+                "clientThumb": "coffee.png"
             }
         ]
     }

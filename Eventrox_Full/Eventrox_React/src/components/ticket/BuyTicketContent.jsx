@@ -2,6 +2,7 @@ import React from 'react';
 import SocialShare from '../others/SocialShare';
 import ReactWOW from 'react-wow';
 import { toast } from 'react-toastify';
+import { NavHashLink as Link } from "react-router-hash-link";
 
 const BuyTicketContent = () => {
 
@@ -13,20 +14,32 @@ const BuyTicketContent = () => {
 
     return (
       <>
-        <section className="buy-ticket">
-          <div className="anim-icons full-width">
-            <span className="icon icon-circle-blue wow fadeIn"></span>
-            <ReactWOW animation="zoomIn">
-              <span className="icon icon-circle-1"></span>
-            </ReactWOW>
-          </div>
+        <section className="buy-ticket" style={{ backgroundColor: "#dedede" }}>
           <div className="auto-container">
+            <div className="image-box">
+              <figure className="image wow fadeIn">
+                <img
+                  src={`/images/resource/pig1024.png
+                `}
+                  alt=""
+                />
+              </figure>
+            </div>
             <div className="row">
               <div className="content-column col-lg-8 col-md-12 col-sm-12 order-2">
                 <div className="inner-column">
                   <h2>
                     NCBBQHOF CEREMONY <span>$20.00</span>
                   </h2>
+                  <div className="btn-box">
+                    <Link
+                      to="https://buy.stripe.com/test_9AQ9Bd2bZ76577O145"
+                      target="_blank"
+                      className="theme-btn btn-style-one"
+                    >
+                      <span className="btn-title">Get Tickets For Dinner</span>
+                    </Link>
+                  </div>
                   <p style={{ color: "black" }}>
                     Come join us tonight as history will be made with two hall
                     of fame events in one night. Help us celebrate the NCBBQHOF
@@ -57,10 +70,49 @@ const BuyTicketContent = () => {
                       fontStyle: "italic",
                     }}
                   >
-                    DINNER TICKETS DO NOT INCLUDE CONCERT. 
+                    DINNER TICKETS DO NOT INCLUDE CONCERT.
                   </p>
                 </div>
+
+                <div className="row two-column">
+                  <div className="column col-lg-6 col-md-12">
+                    <figure className="image">
+                      <img
+                        src="/images/resource/Oak Ridge Boys.jpg"
+                        alt="image"
+                      />
+                    </figure>
+                  </div>
+                  <div className="column col-lg-6 col-md-12">
+                    <h4 style={{ color: "black" }}>The Oak Ridge Boys</h4>
+                    <ul className="list-style-two">
+                      <li style={{ color: "black" }}>
+                        American Made Farewell Tour
+                      </li>
+                      <li style={{ color: "black" }}>
+                        Logo & company details on the WordCamp Kolkata.
+                      </li>
+                      <li style={{ color: "black" }}>
+                        GRAMMY® Award-winning and Country Music Hall of Fame
+                        members
+                      </li>
+                      <li style={{ color: "black" }}>
+                        For tickets to this show
+                        <a href="https://thelibertyshowcase.com/">Click Here</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <p style={{ color: "black" }}>
+                  , The Oak Ridge Boys are officially celebrating their 50th
+                  Anniversary this October. With this celebration, The Oak Ridge
+                  Boys are announcing their American Made: Farewell Tour! The
+                  group, Duane Allen, Joe Bonsall, William Lee Golden, and
+                  Richard Sterban are excited to celebrate both milestones with
+                  fans with the announcement of this tour.
+                </p>
               </div>
+
               <div className="form-column col-lg-4 col-md-12 col-sm-12">
                 <div className="inner-column">
                   <div className="ticket-form">

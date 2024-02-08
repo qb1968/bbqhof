@@ -40,5 +40,30 @@
         "thumb": "hbq7.jpg",
         "icon": "icon fa fa-expand-arrows-alt",
         "animation": "fadeIn"
+    },
+    {
+        "id": 8,
+        "thumb": "1.jpg",
+        "icon": "icon fa fa-expand-arrows-alt",
+        "animation": "fadeIn"
+    },
+    {
+        "id":9 ,
+        "thumb": "2.jpg",
+        "icon": "icon fa fa-expand-arrows-alt",
+        "animation": "fadeIn"
+    },
+    {
+        "id": 10,
+        "thumb": "3.jpg",
+        "icon": "icon fa fa-expand-arrows-alt",
+        "animation": "fadeIn"
+    },
+    {
+        "id": 11,
+        "thumb": "4.jpg",
+        "icon": "icon fa fa-expand-arrows-alt",
+        "animation": "fadeIn"
     }
+    
 ]

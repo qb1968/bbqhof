@@ -41,15 +41,29 @@
         "name": "LEXINGTON BARBECUE",
         "name2": "Wayne Monk",
         "designation": "Nominee",
+         "info": "Lexington Barbecue was established in 1962 by Wayne Monk, who in his teenage years, served as a carhop at a Lexington, NC, barbecue restaurant and later worked directly under Warner Stamey. At 26, Monk bought a parcel of land beside US Highway 29/70, made add-ons to the building, and established Lexington Barbecue #1 on the property, where it has remained to this day. The white building on the hill has grown from a small cafe to a nationally known barbecue restaurant, which the locals knew as the “Honeymonk” or “The Monk.”"
+    },
+    {
+        "id": 7,
+        "thumb": "sjones.png",
+        "name": "Sam Jones BBQ",
+        "name2": "Sam Jones",
+        "designation": "Nominee",
          "info": "Bio coming soon"
     },
+
     {
         "id": 5,
         "thumb": "skylight.jpeg",
         "name": "SKYLIGHT INN BBQ",
-        "name2": "Sam and Bruce Jones",
+        "name2": "Bruce Jones",
         "designation": "Nominee",
-         "info": "Bio coming soon"
+        "info": "Pete Jones opened in the summer of that year at age 17. Since that time the Skylight Inn has become a standard in eastern NC barbecue. Known for its rich family history and unwavering dedication to cooking Barbecue the old fashioned way (with wood), the Skylight Inn has stayed true to its roots.",
+         "info2":"In 1979 National Geographic published a book entitled Back Roads America and basically proclaimed Pete Jones’ Skylight Inn to be some of the best Barbecue in the country.",
+         "info3":"Just a few years later in 1982 Pete’s barbeque got the attention of some politicians and he was invited to serve his barbeque at a congressional bowl. There President Reagan and Vice President Bush delighted in the wonderful smoke flavored Pork and followed up with a letter to Pete and son Bruce stating how great the barbecue was.",
+         "info4":"Skylight’s pigs were simmering with success as local and national newspapers and magazines continued to write about this little place in Ayden, NC. Southern Living magazine featured has the Skylight Inn several times, most recently naming Pete’s Grandson Sam as “one of the top ten pitmasters in the south” in 2012. People magazine featured the Skylight Inn in 1991 and success continued. In 1999 the Skylight Inn gloried in an article in GQ magazine saying the “Pete Jones was a man among pigs”. In 2003 the Skylight Inn received its most prestigious award, revered to as many as “the Oscars for culinary arts”. In a new category, the Jones family received one of four James Beard awards for “Americas Classics.”",
+         "info5":"Since then it has been featured television networks such as the Travel Channel, Food Network, and the History Channel. Also, written about in numerous publications such as Our State Magazine and Details Magazine. Details Magazine chose the Skylight Inn for having one of the “Top 22 sandwiches” in America in 2006 and was on the CBS Morning Show in 2007. Although Pete passed away in February 2006, his legacy and mark in Barbecue is still going strong. Skylight Inn BBQ is now operated by Pete’s son Bruce, nephew Jeff, and grandson Sam Jones who are very proud and dedicated to carrying on the legacy that Pete Jones left. The pits still smoke, and the fire burns brighter than ever."
+        
     },
     {
         "id": 6,
@@ -57,6 +71,15 @@
         "name": "STAMEYS BARBECUE",
         "name2": "Charles Stamey",
         "designation": "Nominee",
-         "info": "Bio coming soon"
+         "info": "Founded in 1930, Stamey’s is well known for it’s “Lexington-style” pit cooked exclusively over hardwood coals barbecue pork and “secret barbecue sauce” or “dip”. Serving delicious barbecue takes more than just a style and secret sauce. Stamey’s Pitmasters* come in before dawn to light the fire to start the cooking process that can take eight to ten hours.",
+         "info2":"Most barbecue restaurants have introduced gas or electric cooking methods, but not us! We still slow cook our barbecue over a pit of hardwood hickory coals. The brick pits are completely enclosed, except for a bit of breathing room at the bottom. The hardwood coals are carefully monitored because they will dry the face of the pork if they get too hot. As each 15-pound pork shoulder cooks, the drippings fall onto the hot coals, sending the hickory smoke flavor into the pork. Once the tender pork is done, it is chopped or sliced to order, ensuring the freshest plate for our customers. No meal is complete without at least some of Stamey’s keys to lasting barbecue success:Wood Cooked Pork Barbecue, Smiling service, Stamey’s slaw, Fresh Brewed Sweet tea, Homemade cobbler and Hot Hushpuppies (introduced to North Carolina barbecue diners by founder Warner Stamey, himself!)",
+
+         "info3":"Good barbecue takes patience and an acute taste for perfection. Stamey’s has spent many years practicing founder C. Warner Stamey’s culinary work of art. Today, a recipe founded in tradition is served to thousands of Stamey’s customers daily. Born in 1911 the youngest of 11 children, Warner Stamey moved to Lexington to live with his older sister while he attended high school. While he was there, he hooked up with the ingenious barbecue men Jess Swicegood and Sid Weaver. They were selling pork out of tents across from the courthouse and taught Stamey everything there was to know about pit cooking barbecue. A high school diploma and $350 dollars later, Mr. Stamey moved back to Shelby where he sold his own barbecue to growing crowds. Eventually, in 1938, he sold his operation and came back to Lexington where he bought the Swicegood’s Barbecue from his former mentor and renamed it Stamey’s.",
+
+
+         "info4":"From that first restaurant grew several culinary ventures. Warner opened Stamey’s Drive-In, the first restaurant to have a call-in service at the drive-in. He also owned the “Snack Shop”, a Lexington staple and had the North Carolina franchise for soft ice cream dispensers. In 1953, he opened the 2206 W. Gate City Blvd. (formerly High Point Rd.) location in Greensboro. Stamey handed the business off to his son Charles four years later, who was joined by his brother Keith in 1970. The second generation Stamey’s expanded the family’s barbecue business with a new location on Battleground Avenue in Greensboro. In 1979, the current location on W. Gate City replaced the 1953 Drive-In at the same location. In 1993 current owner, Chip Stamey joined his father, Charles and uncle, Keith in the barbecue business. Chip’s father retired in 1997 and Keith passed away in 2000. Charles still lives in Greensboro and serves as barbecue pitmaster emeritus! After a fire in 2016 at the Stamey’s Battleground location (2812 Battleground Ave.), the location was reopened in July of 2017 with a fully renovated building, with an added drive thru as well! In 2020, Warner Stamey was inducted to the American Royal Hall of Fame for his contributions to the legacy of barbecue in the United States. ",
+
+
+         "info5":"Simple menus, hard work and family tradition built a foundation that’s supported and practiced throughout the Piedmont today. The entrepreneur of Lexington-style, the Stamey name is now synonymous with great barbecue."
     }
 ]
