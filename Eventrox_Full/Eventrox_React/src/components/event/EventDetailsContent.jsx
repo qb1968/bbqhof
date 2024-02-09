@@ -43,8 +43,8 @@ const EventDetailsContent = () => {
                 Oak Ridge Boys Farewell tour. Come early before the concert and
                 enjoy a barbecue dinner provided by the best of the best in NC.
                 Featuring Hall of Famers Bridges Barbecue of Shelby, Grady's BBQ
-                of Dudley, Hursey's Bar-B-Q of Burlington, and Lexington
-                Barbecue.
+                of Dudley, Hursey's Bar-B-Q of Burlington, Lexington Barbecue,Skylight Inn BBQ, and Sam Jones BBQ.
+               
               </p>
               <p style={{ color: "black" }}>
                 Dinner tickets are only $20.00 and can be purchased here, with
