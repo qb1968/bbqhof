@@ -72,52 +72,66 @@ const HeaderV1 = ({ headerStyle, whiteLogo = false, headerTopV1, headerTopV2, pa
     };
 
     return (
-        <>
-            <header className={`main-header ${headerStyle ? headerStyle : ""} ${isSticky ? "fixed-header" : ""}`}>
-                {headerTopV1 ?
-                    <HeaderTopV1 />
-                    : <></>
-                }
-                {headerTopV2 ?
-                    <HeaderTopV2 />
-                    : <></>
-                }
-                <div className="main-box">
-                    <div className="auto-container clearfix">
-                        {/* <div className="logo-box">
-                            <h3 style={{color:"white",fontFamily:"fantasy",fontSize:"48px"}}>NCBBQHOF</h3>
+      <>
+        <header
+          className={`main-header ${headerStyle ? headerStyle : ""} ${
+            isSticky ? "fixed-header" : ""
+          }`}
+        //   style={{ display: "flex", justifyContent: "center" }}
+        >
+          {headerTopV1 ? <HeaderTopV1 /> : <></>}
+          {headerTopV2 ? <HeaderTopV2 /> : <></>}
+          <div className="main-box">
+            <div className="auto-container clearfix">
+              {/* <div className="logo-box">
+                            <h3 style={{color:"white",fontFamily:"fantasy",fontSize:"24px"}}>NCBBQHOF</h3>
                         </div> */}
-                        <div className="nav-outer clearfix">
-                            <div className="mobile-nav-toggler" onClick={handleOpenMenu}><span className="icon flaticon-menu"></span></div>
-                            <nav className="main-menu navbar-expand-lg navbar-light">
-                                <div className="collapse navbar-collapse clearfix" id="navbarSupportedContent">
-                                    <MainMenu parentMenu={parentMenu} />
-                                </div>
-                            </nav>
-                            {/* <div className="outer-box d-none d-lg-block">
+              <div className="nav-outer clearfix">
+                <div className="mobile-nav-toggler" onClick={handleOpenMenu}>
+                  <span className="icon flaticon-menu"></span>
+                </div>
+                <nav className="main-menu navbar-expand-lg navbar-light">
+                  <div
+                    className="collapse navbar-collapse clearfix"
+                    id="navbarSupportedContent"
+                  >
+                    <MainMenu parentMenu={parentMenu} />
+                  </div>
+                </nav>
+                {/* <div className="outer-box d-none d-lg-block">
                                 
                                 <div className="btn-box">
                                     <Link to="/buy-ticket#" className="theme-btn btn-style-one"><span className="btn-title">Get Tickets For Dinner</span></Link>
                                 </div>
                             </div> */}
-                        </div>
-                    </div>
+              </div>
+            </div>
+          </div>
+          <div className={`${openMenu ? "mobile-menu-visible" : ""}`}>
+            <div className="mobile-menu">
+              <div className="menu-backdrop"></div>
+              <div className="close-btn">
+                <span className="icon flaticon-cancel-1"></span>
+              </div>
+              <nav className="menu-box">
+                <div className="nav-logo">
+                  <h2 style={{color:"black",fontWeight:"bold"}}>NCBBQHOF</h2 >
                 </div>
-                <div className={`${openMenu ? "mobile-menu-visible" : ""}`}>
-                    <div className="mobile-menu">
-                        <div className="menu-backdrop" ></div>
-                        <div className="close-btn"><span className="icon flaticon-cancel-1"></span></div>
-                        <nav className="menu-box">
-                            <div className="nav-logo"><Link to="/#"><img src="/images/logo-2.png" alt="image" /></Link></div>
-                            <MainMenu toggleMultiMenu={toggleMultiMenu} toggleMenu={toggleMenu} parentMenu={parentMenu} />
-                        </nav>
-                        <div className="close-btn" onClick={handleCloseMenu} ><span className="icon flaticon-cancel-music"></span></div>
-                    </div>
-                </div>
-            </header>
-            <SearchPopup openSearch={openSearch} searchClose={searchClose} />
-            <ColorsPalate />
-        </>
+                <MainMenu
+                  toggleMultiMenu={toggleMultiMenu}
+                  toggleMenu={toggleMenu}
+                  parentMenu={parentMenu}
+                />
+              </nav>
+              <div className="close-btn" onClick={handleCloseMenu}>
+                <span className="icon flaticon-cancel-music"></span>
+              </div>
+            </div>
+          </div>
+        </header>
+        <SearchPopup openSearch={openSearch} searchClose={searchClose} />
+        <ColorsPalate />
+      </>
     );
 };
 

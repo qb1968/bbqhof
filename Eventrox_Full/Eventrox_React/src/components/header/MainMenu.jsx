@@ -4,9 +4,9 @@ import { HashLink as Link } from 'react-router-hash-link'
 const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
     return (
       <>
-        <ul className="navigation clearfix"  >
-          <li className={`dropdown ${parentMenu === "home" ? "current" : ""} `}>
-            <Link to="/#" style={{ fontWeight: "bold" }}>
+        <ul className="navigation clearfix" >
+          <li className={`dropdown ${parentMenu === "home" ? "current" : ""} `} >
+            <Link to="/#" style={{ fontWeight: "bold", fontSize: "24px" }}>
               Home
             </Link>
 
@@ -28,33 +28,40 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
           >
             <Link
               to="/speakers#"
-              
-              style={{ fontWeight: "bold" }}
+              style={{ fontWeight: "bold", fontSize: "24px" }}
             >
               Nominees
             </Link>
-
-           
           </li>
           <li
             className={`dropdown ${parentMenu === "schedule" ? "current" : ""}`}
           >
-            <Link to="/event-detail/1/1#" style={{ fontWeight: "bold" }}>
+            <Link
+              to="/event-detail/1/1#"
+              style={{ fontWeight: "bold", fontSize: "24px" }}
+            >
               Ceremony
             </Link>
-           
-           
           </li>
- <li> <Link to="/buy-ticket#" style={{ fontWeight: "bold" }}>
-              Tickets
-            </Link></li>
           <li>
+            {" "}
+            <Link
+              to="/buy-ticket#"
+              style={{ fontWeight: "bold", fontSize: "24px" }}
+            >
+              Tickets
+            </Link>
+          </li>
+          {/* <li>
             <Link to="/gallery#" style={{ fontWeight: "bold" }}>
               Gallery
             </Link>
-          </li>
+          </li> */}
           <li>
-            <Link to="/contact#" style={{ fontWeight: "bold" }}>
+            <Link
+              to="/contact#"
+              style={{ fontWeight: "bold", fontSize: "24px" }}
+            >
               Contact
             </Link>
           </li>
