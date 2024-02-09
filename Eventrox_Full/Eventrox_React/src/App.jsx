@@ -37,7 +37,7 @@ function App() {
       {isLoading ? <Preloader /> :
         <div className='app-wrapper'>
           <Helmet>
-            <title>Eventrox - Digital Events React Template</title>
+            <title>NCBBQHOF</title>
             <link rel="shortcut icon" href="../images/favicon.ico"></link>
           </Helmet>
           <Routers />
