@@ -37,6 +37,15 @@ const EventDetailsContent = () => {
               </div>
 
               <h2>{ScheduleV1Data[parentId - 1].tabData[childId - 1].title}</h2>
+                <div className="btn-box">
+                <Link
+                  to="https://buy.stripe.com/test_9AQ9Bd2bZ76577O145"
+                  target="_blank"
+                  className="theme-btn btn-style-one"
+                >
+                  <span className="btn-title">Get Tickets For Dinner</span>
+                </Link>
+              </div>
               <p style={{ color: "black" }}>
                 Come join us tonight as history will be made with two hall of
                 fame events in one night. Help us celebrate the NCBBQHOF and The
@@ -59,15 +68,7 @@ const EventDetailsContent = () => {
                 overnight call Best Western Plus of Burlington and mention the
                 NCBBQHOF for a special discounted rate.
               </p>
-              <div className="btn-box">
-                <Link
-                  to="https://buy.stripe.com/test_9AQ9Bd2bZ76577O145"
-                  target="_blank"
-                  className="theme-btn btn-style-one"
-                >
-                  <span className="btn-title">Get Tickets For Dinner</span>
-                </Link>
-              </div>
+              
               <p
                 style={{
                   color: "black",
