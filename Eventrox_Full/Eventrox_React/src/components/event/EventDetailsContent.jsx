@@ -39,7 +39,7 @@ const EventDetailsContent = () => {
               <h2>{ScheduleV1Data[parentId - 1].tabData[childId - 1].title}</h2>
                 <div className="btn-box">
                 <Link
-                  to="https://buy.stripe.com/test_9AQ9Bd2bZ76577O145"
+                  to="https://buy.stripe.com/8wM01HcHkbhTg5q6oo"
                   target="_blank"
                   className="theme-btn btn-style-one"
                 >
