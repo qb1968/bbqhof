@@ -49,6 +49,11 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
               Tickets
             </Link></li>
           <li>
+            <Link to="/gallery#" style={{ fontWeight: "bold" }}>
+              Gallery
+            </Link>
+          </li>
+          <li>
             <Link to="/contact#" style={{ fontWeight: "bold" }}>
               Contact
             </Link>

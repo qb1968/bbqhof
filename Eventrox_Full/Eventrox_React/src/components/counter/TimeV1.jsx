@@ -2,15 +2,13 @@ import React from 'react';
 import { useTimer } from 'react-timer-hook';
 
 const TimeV1 = ({ expiryTimestamp }) => {
-    const { seconds, minutes, hours,  } = useTimer({ expiryTimestamp, onExpire: () => console.log('Counter Expired') });
+    const { seconds, minutes, hours, days, } = useTimer({ expiryTimestamp, onExpire: () => console.log('Counter Expired') });
     return (
         <>
             <div className="time-countdown clearfix">
-                
                 <div className="counter-column">
-                    <span  style={{fontSize:"28px",fontWeight:"bold"}}>Tickets On Sale In</span>
+                    <span className="count">{days <= 9 ? `0${days}` : days}</span>Days
                 </div>
-               
                 <div className="counter-column">
                     <span className="count">{hours <= 9 ? `0${hours}` : hours}</span>Hours
                 </div>

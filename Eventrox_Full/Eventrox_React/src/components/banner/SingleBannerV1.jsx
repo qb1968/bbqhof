@@ -19,7 +19,7 @@ const SingleBannerV1 = ({ banner }) => {
     <>
       <div
         className="slide-item"
-        style={{ backgroundImage: `url(images/main-slider/${thumb}` }}
+        style={{ backgroundImage: `url(images/main-slider/${thumb}`}}
       >
         <div className="auto-container">
           <div
@@ -31,7 +31,7 @@ const SingleBannerV1 = ({ banner }) => {
             }}
           >
             {/* <figure className="image"> */}
-            <img src={`/images/main-slider/${thumb2}`} alt="image" />
+                      <img src={`/images/main-slider/${thumb2}`} alt="image"  />
             {/* </figure> */}
 
             <ul className="info-list">

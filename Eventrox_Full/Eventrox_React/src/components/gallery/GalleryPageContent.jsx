@@ -24,36 +24,79 @@ const GalleryPageContent = () => {
     const totalPages = Math.ceil(GalleryV2Data.length / itemsPerPage);
 
     return (
-        <>
-            <section className="gallery-section" style={{backgroundColor:"#dedede"}}>
-                <div className="auto-container">
-                    <div className="sec-title text-center">
+      <>
+        {/* <section
+          className="gallery-section"
+          style={{ backgroundColor: "#dedede" }}
+        >
+          <div className="auto-container">
+            <div className="sec-title text-center">
                         <span className="title">Gallery</span>
+                        <h1>Site Under Construction</h1>
+            </div>
+                    <div className="row" >
                         
-                    </div>
-                    <div className="row">
-                        <Gallery withDownloadButton>
-                            {currentGalleryData.map(gallery =>
-                                <div className="gallery-item col-lg-4 col-md-6 col-sm-12" key={gallery.id} >
-                                    <SingleImageBox gallery={gallery} />
-                                </div>
-                            )}
-                        </Gallery>
-                        <Pagination
-                            previousLabel={currentPage === 1 ? <i className='icon fa fa-ban'></i> : <i className='icon fa fa-angle-left'></i>}
-                            nextLabel={currentPage === totalPages ? <i className='icon fa fa-ban'></i> : <i className='icon fa fa-angle-right'></i>}
-                            breakLabel={'...'}
-                            pageCount={Math.ceil(GalleryV2Data.length / itemsPerPage)}
-                            marginPagesDisplayed={2}
-                            pageRangeDisplayed={5}
-                            onPageChange={handlePageClick}
-                            containerClassName={'styled-pagination text-center'}
-                            activeClassName={'active'}
-                        />
-                    </div>
-                </div>
-            </section>
-        </>
+              <div className="image-box">
+                
+              </div>
+             
+            </div>
+          </div>
+        </section> */}
+        <section className="team-area fix p-relative pt-120 pb-90">
+          <h1 
+            style={{
+              padding:10,
+              fontSize: "30px",
+              fontFamily: "Alex Brush",
+              textAlign: "center",
+              color: "black",
+            }}
+          >
+            Gallery
+          </h1>
+          <div className="container" style={{padding:10}}>
+            <h2>Hursey's Bar-B-Q</h2>
+            <div className="row">
+              <div className="col-lg-4">
+                <figure>
+                  <img src={`../images/resource/hbq.jpg`} alt="" />
+                </figure>
+              </div>
+
+              <div className="col-lg-6">
+                <figure>
+                  <img src={`../images/resource/hbq2.jpg`} alt="" />
+                </figure>
+              </div>
+              <div className="col-lg-6">
+                <figure>
+                  <img src={`../images/resource/hbq3.jpg`} alt="" />
+                </figure>
+              </div>
+              <div className="col-lg-6">
+                <figure>
+                  <img src={`../images/resource/hbq4.jpg`} alt="" style={{width:300,height:500}} />
+                </figure>
+              </div>
+
+              <div className="col-lg-6">
+                <figure>
+                  <img src={`../images/resource/hbq5.jpg`} alt="" />
+                </figure>
+              </div>
+              <div className="col-lg-3">
+                <img src={`../images/resource/hbq6.jpg`}  alt="" />
+              </div>
+              <div className="col-lg-4">
+                <img src={`../images/resource/hbq7.jpg`} alt="" />
+              </div>
+              
+            </div>
+          </div>
+         
+        </section>
+      </>
     );
 };
 
