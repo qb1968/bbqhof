@@ -13,7 +13,7 @@ const EventDetails = () => {
                 <HeaderV1 headerStyle="header-style-two" parentMenu='schedule' />
                 
                 <EventDetailsContent />
-                <ClientV1/>
+                
                 <FooterV1 />
             </div>
         </>
