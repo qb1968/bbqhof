@@ -33,7 +33,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
               Nominees
             </Link>
           </li>
-          <li
+          {/* <li
             className={`dropdown ${parentMenu === "schedule" ? "current" : ""}`}
           >
             <Link
@@ -42,7 +42,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
             >
               Ceremony
             </Link>
-          </li>
+          </li> */}
           <li>
             {" "}
             <Link

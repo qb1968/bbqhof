@@ -129,7 +129,7 @@ const EventDetailsContent = () => {
                 PLEASE SEE INFO ON DINNER ABOVE.
               </p>
             </div>
-            <ClientV1/>
+            
           </div>
           
         </section>

@@ -42,14 +42,11 @@ const BuyTicketContent = () => {
                     </Link>
                   </div>
                   <p style={{ color: "black" }}>
-                    Come join us tonight as history will be made with two hall
-                    of fame events in one night. Help us celebrate the NCBBQHOF
-                    and The Oak Ridge Boys Farewell tour. Come early before the
-                    concert and enjoy a barbecue dinner provided by the best of
-                    the best in NC. Featuring Hall of Famers Bridges Barbecue of
-                    Shelby, Grady's BBQ of Dudley, Hursey's Bar-B-Q of
-                    Burlington, Lexington Barbecue, Skylight Inn BBQ, and Sam
-                    Jones BBQ.
+                    Come join us March 1, 2024 as history will be made with two
+                    hall of fame events in one night. Help us celebrate the
+                    NCBBQHOF and The Oak Ridge Boys Farewell tour. Come early
+                    before the concert and enjoy a barbecue dinner provided by
+                    the best of the best in NC.
                   </p>
                   <p style={{ color: "black" }}>
                     Dinner tickets are only $20.00 and can be purchased here,
@@ -72,7 +69,7 @@ const BuyTicketContent = () => {
                       fontStyle: "italic",
                     }}
                   >
-                    DINNER TICKETS DO NOT INCLUDE CONCERT.
+                    DINNER TICKETS DO NOT INCLUDE CONCERT. FOR MORE INFO SEE BELOW
                   </p>
                 </div>
 
@@ -91,16 +88,21 @@ const BuyTicketContent = () => {
                       <li style={{ color: "black" }}>
                         American Made Farewell Tour
                       </li>
-                      <li style={{ color: "black" }}>
-                        Logo & company details on the WordCamp Kolkata.
-                      </li>
+                     
                       <li style={{ color: "black" }}>
                         GRAMMY® Award-winning and Country Music Hall of Fame
                         members
                       </li>
                       <li style={{ color: "black" }}>
                         For tickets to this show
-                        <a href="https://thelibertyshowcase.com/">Click Here</a>
+                        <br />
+                        <a
+                          href="https://thelibertyshowcase.com/"
+                          target="_blank"
+                          style={{ fontSize: "24px" }}
+                        >
+                          Click Here
+                        </a>
                       </li>
                     </ul>
                   </div>
@@ -125,8 +127,8 @@ const BuyTicketContent = () => {
                 </p>
               </div>
             </div>
-            <ClientV1 />
           </div>
+          <ClientV1 />
         </section>
       </>
     );
