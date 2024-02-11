@@ -9,7 +9,7 @@ const SpeakerV1 = () => {
                 <div className="auto-container">
                     <div className="sec-title light text-center">
                        
-                        <h2>Nominees</h2>
+                        <h2>2024 Nominees</h2>
                     </div>
                     <div className="row" style={{display:'flex',justifyContent:'space-evenly'}}>
                         {SpeakerV1Data.map(speaker =>

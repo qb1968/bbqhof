@@ -4,7 +4,8 @@ import ScheduleV1Data from '../../jsonData/schedule/ScheduleV1Data.json'
 import { NavHashLink as Link } from "react-router-hash-link";
 
 const EventDetailsContent = () => {
-    const { parentId, childId } = useParams();
+  const { parentId, childId } = useParams();
+  // const { } = ();
 
     return (
       <>
@@ -37,7 +38,7 @@ const EventDetailsContent = () => {
               </div>
 
               <h2>{ScheduleV1Data[parentId - 1].tabData[childId - 1].title}</h2>
-                <div className="btn-box">
+              <div className="btn-box">
                 <Link
                   to="https://buy.stripe.com/8wM01HcHkbhTg5q6oo"
                   target="_blank"
@@ -51,9 +52,6 @@ const EventDetailsContent = () => {
                 fame events in one night. Help us celebrate the NCBBQHOF and The
                 Oak Ridge Boys Farewell tour. Come early before the concert and
                 enjoy a barbecue dinner provided by the best of the best in NC.
-                Featuring Hall of Famers Bridges Barbecue of Shelby, Grady's BBQ
-                of Dudley, Hursey's Bar-B-Q of Burlington, Lexington Barbecue, Skylight Inn BBQ, and Sam Jones BBQ.
-               
               </p>
               <p style={{ color: "black" }}>
                 Dinner tickets are only $20.00 and can be purchased here, with
@@ -68,7 +66,7 @@ const EventDetailsContent = () => {
                 overnight call Best Western Plus of Burlington and mention the
                 NCBBQHOF for a special discounted rate.
               </p>
-              
+
               <p
                 style={{
                   color: "black",
@@ -103,8 +101,8 @@ const EventDetailsContent = () => {
                       members
                     </li>
                     <li style={{ color: "black" }}>
-                      For tickets to this show
-                      <a href="https://thelibertyshowcase.com/" target="_blank">
+                      For tickets to this show<br/>
+                      <a href="https://thelibertyshowcase.com/" target="_blank" style={{fontSize:"24px"}}>
                         Click Here
                       </a>
                     </li>
@@ -119,9 +117,21 @@ const EventDetailsContent = () => {
                 Sterban are excited to celebrate both milestones with fans with
                 the announcement of this tour.
               </p>
+              <p
+                style={{
+                  color: "black",
+                  fontWeight: "bold",
+                  fontStyle: "italic",
+                }}
+              >
+                SHOW TICKETS DO NOT INCLUDE DINNER. FOR MORE INFO ON DINNER
+                PLEASE SEE INFO ON DINNER ABOVE.
+              </p>
             </div>
           </div>
+          
         </section>
+        
       </>
     );
 };

@@ -3,6 +3,7 @@ import SocialShare from '../others/SocialShare';
 import ReactWOW from 'react-wow';
 import { toast } from 'react-toastify';
 import { NavHashLink as Link } from "react-router-hash-link";
+import ClientV1 from '../client/ClientV1';
 
 const BuyTicketContent = () => {
 
@@ -116,6 +117,7 @@ const BuyTicketContent = () => {
               
               
             </div>
+            <ClientV1/>
           </div>
         </section>
       </>
