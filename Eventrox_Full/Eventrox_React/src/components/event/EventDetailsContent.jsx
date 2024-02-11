@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import ScheduleV1Data from '../../jsonData/schedule/ScheduleV1Data.json'
 import { NavHashLink as Link } from "react-router-hash-link";
+import ClientV1 from '../client/ClientV1';
 
 const EventDetailsContent = () => {
   const { parentId, childId } = useParams();
@@ -128,6 +129,7 @@ const EventDetailsContent = () => {
                 PLEASE SEE INFO ON DINNER ABOVE.
               </p>
             </div>
+            <ClientV1/>
           </div>
           
         </section>

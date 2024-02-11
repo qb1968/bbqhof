@@ -48,7 +48,8 @@ const BuyTicketContent = () => {
                     concert and enjoy a barbecue dinner provided by the best of
                     the best in NC. Featuring Hall of Famers Bridges Barbecue of
                     Shelby, Grady's BBQ of Dudley, Hursey's Bar-B-Q of
-                    Burlington, Lexington Barbecue, Skylight Inn BBQ, and Sam Jones BBQ.
+                    Burlington, Lexington Barbecue, Skylight Inn BBQ, and Sam
+                    Jones BBQ.
                   </p>
                   <p style={{ color: "black" }}>
                     Dinner tickets are only $20.00 and can be purchased here,
@@ -112,12 +113,19 @@ const BuyTicketContent = () => {
                   Richard Sterban are excited to celebrate both milestones with
                   fans with the announcement of this tour.
                 </p>
+                <p
+                  style={{
+                    color: "black",
+                    fontWeight: "bold",
+                    fontStyle: "italic",
+                  }}
+                >
+                  SHOW TICKETS DO NOT INCLUDE DINNER. FOR MORE INFO ON DINNER
+                  PLEASE SEE INFO ON DINNER ABOVE.
+                </p>
               </div>
-
-              
-              
             </div>
-            <ClientV1/>
+            <ClientV1 />
           </div>
         </section>
       </>
