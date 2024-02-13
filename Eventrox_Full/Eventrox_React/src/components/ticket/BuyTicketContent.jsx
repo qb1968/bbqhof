@@ -45,8 +45,7 @@ const BuyTicketContent = () => {
                     Come join us March 1, 2024 as history will be made with two
                     hall of fame events in one night. Help us celebrate the
                     NCBBQHOF and The Oak Ridge Boys Farewell tour. Come early
-                    before the concert and enjoy a barbecue dinner provided by
-                    the best of the best in NC.
+                    before the concert and enjoy a barbecue dinner.
                   </p>
                   <p style={{ color: "black" }}>
                     Dinner tickets are only $20.00 and can be purchased here,
@@ -69,7 +68,8 @@ const BuyTicketContent = () => {
                       fontStyle: "italic",
                     }}
                   >
-                    DINNER TICKETS DO NOT INCLUDE CONCERT. FOR MORE INFO SEE BELOW
+                    DINNER TICKETS DO NOT INCLUDE CONCERT. FOR MORE INFO SEE
+                    BELOW
                   </p>
                 </div>
 
@@ -83,23 +83,37 @@ const BuyTicketContent = () => {
                     </figure>
                   </div>
                   <div className="column col-lg-6 col-md-12">
-                    <h4 style={{ color: "black" }}>The Oak Ridge Boys</h4>
-                    <ul className="list-style-two">
-                      <li style={{ color: "black" }}>
+                    <h3
+                      style={{
+                        color: "black",
+                        textAlign: "center",
+                        fontWeight: "bold",
+                      }}
+                    >
+                      {" "}
+                      Liberty Showcase Theater <br />
+                      Presents <br />
+                      The Oak Ridge Boys
+                    </h3>
+                    <ul
+                      className="list-style-two"
+                      style={{ textAlign: "center", fontWeight: "bold" }}
+                    >
+                      <li style={{ color: "black", fontWeight: "bold" }}>
                         American Made Farewell Tour
                       </li>
-                     
-                      <li style={{ color: "black" }}>
+
+                      <li style={{ color: "black", fontWeight: "bold" }}>
                         GRAMMY® Award-winning and Country Music Hall of Fame
                         members
                       </li>
-                      <li style={{ color: "black" }}>
+                      <li style={{ color: "black", fontWeight: "bold" }}>
                         For tickets to this show
                         <br />
                         <a
                           href="https://thelibertyshowcase.com/"
                           target="_blank"
-                          style={{ fontSize: "24px" }}
+                          style={{ fontSize: "24px", fontWeight: "bold" }}
                         >
                           Click Here
                         </a>
@@ -108,7 +122,7 @@ const BuyTicketContent = () => {
                   </div>
                 </div>
                 <p style={{ color: "black" }}>
-                  , The Oak Ridge Boys are officially celebrating their 50th
+                  The Oak Ridge Boys are officially celebrating their 50th
                   Anniversary this October. With this celebration, The Oak Ridge
                   Boys are announcing their American Made: Farewell Tour! The
                   group, Duane Allen, Joe Bonsall, William Lee Golden, and

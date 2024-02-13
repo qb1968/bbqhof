@@ -42,7 +42,7 @@ const AboutV1 = () => {
                     >
                       The North Carolina Bar-B-Q Hall of Fame will unite and
                       give accreditation to the men and women who through the years
-                      and decades of hard work created and established North Carolina’s worldwide famous reputation of pit cooked pork barbq .
+                      and decades of hard work created and established North Carolina’s worldwide famous reputation of pit cooked pork BAR-B-Q .
                       
                      
                     </div>
