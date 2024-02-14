@@ -47,6 +47,7 @@ const BuyTicketContent = () => {
                     NCBBQHOF and The Oak Ridge Boys Farewell tour. Come early
                     before the concert and enjoy a barbecue dinner.
                   </p>
+                  <p>Inductees for 2024 are a follows. Alston Bridges Barbecue, Gradys BBQ, Hursey's BAR-B-Q, Lexington Barbecue, Sam Jones BBQ, Skylight Inn BBQ, and Stamey's Barbecue</p>
                   <p style={{ color: "black" }}>
                     Dinner tickets are only $20.00 and can be purchased here,
                     with proceeds going to ALCOVETS(Alamance County local
