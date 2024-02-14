@@ -48,7 +48,7 @@ const BuyTicketContent = () => {
                     before the concert and enjoy a barbecue dinner.
                   </p>
                   <p style={{ color: "black" }}>
-                    Inductees for 2024 are a follows. Alston Bridges Barbecue,
+                    Inductees for 2024 are as follows. Alston Bridges Barbecue,
                     Gradys BBQ, Hursey's BAR-B-Q, Lexington Barbecue, Sam Jones
                     BBQ, Skylight Inn BBQ, and Stamey's Barbecue
                   </p>
