@@ -47,7 +47,11 @@ const BuyTicketContent = () => {
                     NCBBQHOF and The Oak Ridge Boys Farewell tour. Come early
                     before the concert and enjoy a barbecue dinner.
                   </p>
-                  <p>Inductees for 2024 are a follows. Alston Bridges Barbecue, Gradys BBQ, Hursey's BAR-B-Q, Lexington Barbecue, Sam Jones BBQ, Skylight Inn BBQ, and Stamey's Barbecue</p>
+                  <p style={{ color: "black" }}>
+                    Inductees for 2024 are a follows. Alston Bridges Barbecue,
+                    Gradys BBQ, Hursey's BAR-B-Q, Lexington Barbecue, Sam Jones
+                    BBQ, Skylight Inn BBQ, and Stamey's Barbecue
+                  </p>
                   <p style={{ color: "black" }}>
                     Dinner tickets are only $20.00 and can be purchased here,
                     with proceeds going to ALCOVETS(Alamance County local
@@ -57,7 +61,7 @@ const BuyTicketContent = () => {
                     Join us at the Alliance Convention Center in Burlington, NC.
                     Doors will open at 5:30pm and dinner will be served at
                     6:00pm. Van Denton from Fox8 will be Master of Ceremonies
-                    with awards presented by Miss North Carolina. If you are
+                    with awards presented by Miss North Carolina USA. If you are
                     planning to stay overnight call Best Western Plus of
                     Burlington and mention the NCBBQHOF for a special discounted
                     rate.
