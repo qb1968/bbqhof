@@ -44,8 +44,8 @@ const GalleryPageContent = () => {
           </div>
         </section> */}
         <section className="team-area fix p-relative pt-120 pb-90">
-          <div className="container" style={{ padding: 10 }}>
-            <h2>Alston Bridges Barbecue</h2>
+          <div className="container" style={{ padding: 20 }}>
+            <h2 style={{color:"red",fontWeight:"bold"}}>Alston Bridges Barbecue</h2>
             <div className="row">
               <div className="col-lg-4">
                 <figure>
@@ -79,7 +79,7 @@ const GalleryPageContent = () => {
               </div>
             </div>
           </div>
-          <div className="container" style={{ padding: 10 }}>
+          <div className="container" style={{ padding: 20 }}>
          
             
             <h2>Grady's BBQ</h2>
