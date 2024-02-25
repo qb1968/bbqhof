@@ -14,7 +14,7 @@ const FooterV1 = () => {
                     <div className="auto-container">
                         <div className="inner-container clearfix">
                             <div className="copyright-text">
-                                <p>&copy; Copyright {(new Date().getFullYear())} All Rights Reserved by <Link to="" target='_blank'>Jonathan Mark Allison</Link></p>
+                                <p>&copy; Copyright {(new Date().getFullYear())} All Rights Reserved by <Link to="" target='_blank'>Allison Web Consultants, LLC</Link></p>
                             </div>
                         </div>
                     </div>
