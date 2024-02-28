@@ -1816,6 +1816,7 @@ __metadata:
     react-modal-video: "npm:^2.0.1"
     react-paginate: "npm:^8.2.0"
     react-paypal-button-v2: "npm:^2.6.3"
+    react-photo-album: "npm:^2.3.1"
     react-photoswipe-gallery: "npm:2.2.7"
     react-reveal: "npm:^1.2.2"
     react-router-dom: "npm:^6.20.1"
@@ -3396,6 +3397,15 @@ __metadata:
     react: ^0.14.6 || 15.x.x || 16.x.x || 17.x.x
     react-dom: ^0.14.6 || 15.x.x || 16.x.x || 17.x.x
   checksum: 10c0/8ee3a86cf86bb961ba38315949470eeec6e66194763b9259386eeab6c1654505b0fcd2efa09d839b238293b44b8aaf0ce45da0b2ac468d2f25c9a132b0ea92d6
+  languageName: node
+  linkType: hard
+
+"react-photo-album@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "react-photo-album@npm:2.3.1"
+  peerDependencies:
+    react: ">=16.8.0"
+  checksum: 10c0/3acc1775c2f4f3680b994b381b897e6ebb1b772f9d25582a54697336940423083f33b7f9afbf3a97a0585f338e0b0623df2a2e5d08478d1c60d5a8f1ba1883d2
   languageName: node
   linkType: hard
 
