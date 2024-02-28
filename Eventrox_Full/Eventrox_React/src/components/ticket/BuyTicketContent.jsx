@@ -29,7 +29,7 @@ const BuyTicketContent = () => {
             <div className="row">
               <div className="content-column col-lg-8 col-md-12 col-sm-12 order-2">
                 <div className="inner-column">
-                  <h2>
+                  <h2 style={{color:"black",fontWeight:"bold"}}>
                     NCBBQHOF CEREMONY <span>$20.00</span>
                   </h2>
                   <div className="btn-box">
@@ -40,6 +40,7 @@ const BuyTicketContent = () => {
                     >
                       <span className="btn-title">Get Tickets For Dinner</span>
                     </Link>
+                    <h3 style={{color:"black",fontStyle:"italic"}}>TICKETS ARE GOING FAST! <br/> ONLY A FEW TICKETS WILL BE AVAILABLE AT DOOR!</h3>
                   </div>
                   <p style={{ color: "black" }}>
                     Come join us March 1, 2024 as history will be made with two
