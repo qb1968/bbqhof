@@ -170,28 +170,40 @@ const GalleryPageContent = () => {
                 </figure>
               </div>
               <div className="col-lg-4">
-                <img src={`../images/resource/hbq6.jpg`} alt="" />
+                <figure><img src={`../images/resource/hbq6.jpg`} alt="" /></figure>
+                
               </div>
               <div className="col-lg-4">
-                <img src={`../images/resource/hbq7.jpg`} alt="" />
+                <figure><img src={`../images/resource/hbq7.jpg`} alt="" /></figure>
+                
               </div>
               <div className="col-lg-2">
-                <img src={`../images/resource/hbq25.jpg`} alt="" />
+                <figure><img src={`../images/resource/hbq25.jpg`} alt="" /></figure>
+                
               </div>
               <div className="col-lg-4">
-                <img src={`../images/resource/hbq9.jpg`} alt="" />
+                <figure> <img src={`../images/resource/hbq9.jpg`} alt="" /></figure>
+               
               </div>
               <div className="col-lg-4">
-                <img src={`../images/resource/hbq10.jpg`} alt="" />
+                <figure><img src={`../images/resource/hbq10.jpg`} alt="" /></figure>
+                
               </div>
               <div className="col-lg-4">
-                <img src={`../images/resource/hbq1.jpg`} alt="" />
+                <figure><img src={`../images/resource/hbq1.jpg`} alt="" /></figure>
+                
               </div>
               <div className="col-lg-4">
-                <img src={`../images/resource/hbq.jpg`} alt="" />
+                <figure><img src={`../images/resource/hbq.jpg`} alt="" /></figure>
+                
+              </div>
+              <div className="col-lg-4">
+                <figure><img src={`../images/resource/20240214_084221.jpg`} alt="" /></figure>
+                
               </div>
               <div className="col-lg-8">
-                <img src={`../images/resource/hbq11.jpg`} alt="" />
+                <figure><img src={`../images/resource/hbq11.jpg`} alt="" /></figure>
+                
               </div>
             </div>
           </div>

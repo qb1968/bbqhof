@@ -62,7 +62,7 @@ const BuyTicketContent = () => {
                     Join us at the Alliance Convention Center in Burlington, NC.
                     Doors will open at 5:30pm and dinner will be served at
                     6:00pm. Van Denton from Fox8 will be Master of Ceremonies
-                    with awards presented by Miss North Carolina USA. If you are
+                    with awards presented by Miss North Carolina USA .<img src="/images/resource/mnc.jpg" style={{width:200,display:"flex"}} /> <br/> If you are
                     planning to stay overnight call Best Western Plus of
                     Burlington and mention the NCBBQHOF for a special discounted
                     rate.
