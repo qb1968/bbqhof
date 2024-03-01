@@ -33,14 +33,14 @@ const BuyTicketContent = () => {
                     NCBBQHOF CEREMONY <span>$20.00</span>
                   </h2>
                   <div className="btn-box">
-                    <Link
+                    {/* <Link
                       to="https://buy.stripe.com/8wM01HcHkbhTg5q6oo"
                       target="_blank"
                       className="theme-btn btn-style-one"
                     >
                       <span className="btn-title">Get Tickets For Dinner</span>
-                    </Link>
-                    <h3 style={{color:"black",fontStyle:"italic"}}>TICKETS ARE GOING FAST! <br/> ONLY A FEW TICKETS WILL BE AVAILABLE AT DOOR!</h3>
+                    </Link> */}
+                    <h1 style={{color:"black",fontStyle:"italic"}}>TICKETS ARE SOLD OUT! <br/></h1>
                   </div>
                   <p style={{ color: "black" }}>
                     Come join us March 1, 2024 as history will be made with two
