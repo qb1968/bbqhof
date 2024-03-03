@@ -30,7 +30,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
               to="/speakers#"
               style={{ fontWeight: "bold", fontSize: "24px" }}
             >
-              Nominees
+              Inductees
             </Link>
           </li>
           {/* <li
@@ -43,7 +43,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
               Ceremony
             </Link>
           </li> */}
-          <li>
+          {/* <li>
             {" "}
             <Link
               to="/buy-ticket#"
@@ -51,7 +51,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
             >
               Tickets
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link to="/gallery#" style={{ fontWeight: "bold",fontSize:"24px" }}>
               Gallery
