@@ -21,6 +21,7 @@ import BlogSingle from './pages/innerPages/BlogSingle';
 import Login from './pages/innerPages/Login';
 import Contact from './pages/innerPages/Contact';
 import ErrorPage from './pages/innerPages/ErrorPage';
+import Shop from './pages/innerPages/Shop';
 
 const Routers = () => {
     return (
@@ -35,6 +36,7 @@ const Routers = () => {
                 <Route path='/pricing' element={<Pricing />}></Route>
                 <Route path='/faqs' element={<Faq />}></Route>
                 <Route path='/gallery' element={<Gallery />}></Route>
+                <Route path='/shop' element={<Shop/>}></Route>
                 <Route path='/coming-soon' element={<ComingSoon />}></Route>
                 <Route path='/speakers' element={<Speakers />}></Route>
                 <Route path='/speakers-detail/:id' element={<SpeakersDetail />}></Route>

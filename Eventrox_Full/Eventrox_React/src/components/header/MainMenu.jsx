@@ -58,6 +58,11 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
             </Link>
           </li>
           <li>
+            <Link to="/shop#" style={{ fontWeight: "bold",fontSize:"24px" }}>
+              Shop
+            </Link>
+          </li>
+          <li>
             <Link
               to="/contact#"
               style={{ fontWeight: "bold", fontSize: "24px" }}
