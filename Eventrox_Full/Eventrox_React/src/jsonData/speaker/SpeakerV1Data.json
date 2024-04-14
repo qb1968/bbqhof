@@ -2,7 +2,7 @@
     {
         "id": 1,
         "thumb": "bridges.png",
-        "thumb3":"",
+        
         "name": "Alston Bridges Barbecue",
         "name2": "Kent Bridges",
         "designation": "Nominee",
@@ -10,8 +10,12 @@
         "info2":"Stamey learned the craft of barbecue from Jess Swicegood and Sid Weaver in Lexington, North Carolina, while he attended high school in the late 1920's. In time, he had saved enough and decided to move back to his hometown of Shelby in 1930. Once in Shelby, Stamey shared his barbecue knowledge by teaching the skills he had acquired to his wife's brother, Alston Bridges, and Red Bridges (no relation). Alston and his wife, Mabel Wall Bridges, moved to Lexington themselves where he managed Warner Stamey's Log Cabin Barbecue for two and one half years. In 1955, Alston and Mabel returned to Shelby. The bought the Grover Street property from Stamey and opened Alston Bridges Barbecue. This exact site is where the restaurant would stay and the tradition would live on for future generations.",
         "info3": "Alston supported the value of family pride by bringing five sons in to work beside him. Through the course of life, three of Alston's sons, Bob, Milton, and Don Bridges decided to leave the family business and pursue other careers. This left Kent and Dennis Bridges to continue the tradition. Eventually Kent acquired his brother's shares and took full rein of father's business. ",
         "info4": "Kent has given 69 hard working years to the vision his father began when he opened Alston Bridges Barbecue. In this time, Kent's four children have literally grown up surrounded by this family tradition. The children remember fondly of playing in the basement of the restaurant while Kent and his wife, Linda, kept the business running smoothly upstairs. Other memories include Mabel Bridges, Alston's widow, teaching the children to count money and make change with the greatest of ease. It was during this time which Mabel also instilled within the children the the President's heads on the bills should be turned the same direction. As the children became older they learned to wash dishes,sweep floors and other jobs around the restaurant. Today, it is the three of these same children that share control of the leadership reins at Alston Bridges Barbecue.",
-        "info5": "The easiest directions to Alston Bridges Barbecue is US 74-Bypass in Shelby. Turn north onto Dekalb Street opposite Shelby High School. Follow Dekalb Street until it dead-ends opposite the hospital. Turn right onto Grover Street. The restaurant will be one and One half block on right."
-
+        "info5": "The easiest directions to Alston Bridges Barbecue is US 74-Bypass in Shelby. Turn north onto Dekalb Street opposite Shelby High School. Follow Dekalb Street until it dead-ends opposite the hospital. Turn right onto Grover Street. The restaurant will be one and One half block on right.",
+        "thumb2": "ab1.png",
+        "thumb3":"ab1.1.png",
+        "thumb4":"ab5.png",
+        "image":"ab3.png",
+        "image1":"ab5.png"
     },
     {
         "id": 2,
