@@ -9,6 +9,7 @@ import AboutUs from './pages/innerPages/AboutUs';
 import Pricing from './pages/innerPages/Pricing';
 import Faq from './pages/innerPages/Faq';
 import Gallery from './pages/innerPages/Gallery';
+import Gallery2 from './pages/innerPages/Gallery2'
 import ComingSoon from './pages/innerPages/ComingSoon';
 import Speakers from './pages/innerPages/Speakers';
 import SpeakersDetail from './pages/innerPages/SpeakersDetail';
@@ -36,6 +37,7 @@ const Routers = () => {
                 <Route path='/pricing' element={<Pricing />}></Route>
                 <Route path='/faqs' element={<Faq />}></Route>
                 <Route path='/gallery' element={<Gallery />}></Route>
+                <Route path='/gallery2' element={<Gallery2 />}></Route>
                 <Route path='/shop' element={<Shop/>}></Route>
                 <Route path='/coming-soon' element={<ComingSoon />}></Route>
                 <Route path='/speakers' element={<Speakers />}></Route>

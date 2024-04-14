@@ -35,7 +35,7 @@ const SpeakerInfo = ({ speakerInfo }) => {
                   <h4>{name2}</h4>
 
                   <p style={{ color: "black" }}>{info}</p>
-                 
+
                   <p style={{ color: "black" }}>{info2}</p>
                   <p style={{ color: "black" }}>{info3}</p>
                   <p style={{ color: "black" }}>{info4}</p>
@@ -44,11 +44,14 @@ const SpeakerInfo = ({ speakerInfo }) => {
                   <p style={{ color: "black" }}>{info6}</p>
                   <p style={{ color: "black" }}>{info7}</p>
                 </div>
+               
+                 
+
+                 
               </div>
             </div>
           </div>
         </div>
-        
       </section>
     </>
   );
