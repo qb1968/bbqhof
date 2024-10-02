@@ -2,6 +2,7 @@ import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import AnimatedBg from "react-animated-bg";
 
+
 const SingleBannerV1 = ({ banner }) => {
   const {
     thumb,
@@ -63,6 +64,8 @@ const SingleBannerV1 = ({ banner }) => {
             </AnimatedBg>
             
           </div>
+          
+        <Link to="https://buy.stripe.com/cN229P8r4eu52eA14m" target="blank" style={{fontSize:"38px",marginTop:30,color:"white",fontWeight:"bold",textDecorationLine:"underline"}}><h2>OR DONATE HERE</h2></Link>
         </div>
       </div>
     </>
