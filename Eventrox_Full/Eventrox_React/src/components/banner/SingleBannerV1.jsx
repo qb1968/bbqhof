@@ -1,5 +1,6 @@
 import React from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import AnimatedBg from "react-animated-bg";
 
 const SingleBannerV1 = ({ banner }) => {
   const {
@@ -13,6 +14,7 @@ const SingleBannerV1 = ({ banner }) => {
     btnLink,
     btnText,
     thumb2,
+    thumb3
   } = banner;
 
   return (
@@ -33,17 +35,33 @@ const SingleBannerV1 = ({ banner }) => {
             {/* <figure className="image"> */}
                       <img src={`/images/main-slider/${thumb2}`} alt="image"  />
             {/* </figure> */}
-
-            <ul className="info-list">
+            
+  <AnimatedBg
+    colors={["red", "blue"]}
+    duration={0}
+    delay={0.5} // it will wait 4 seconds before next transition starts
+    timingFunction="linear"
+    className="section-styles"
+  >
+            <ul className="info-list" >
               <h3
                 className="title"
                 style={{ color: "white", fontSize: "40px", padding: 5 }}
               >
                 {subTitle}{" "}
               </h3>
-              {/* <h3 style={{ color: "white", fontSize: "38px" }}>{list1}</h3>
-              <li style={{ color: "white", fontSize: "38px" }}>{list3}</li> */}
+              <h3 style={{ color: "white", fontSize: "25px" }}>{list1}</h3>
+              <h3 style={{ color: "white", fontSize: "25px" }}>{list2}</h3>
+              <h3 style={{ color: "white", fontSize: "25px" }}>{list3}</h3>
+              
+              {/* <h3 style={{ color: "white", fontSize: "25px" }}>{list4}</h3> */}
+              {/* <h3 style={{ color: "white", fontSize: "25px" }}>{list5}</h3> */}
+              <div style={{display:"flex",justifyContent:"center"}}>
+              <img src={`/images/background/${thumb3}`} alt="image" style={{width:250,}} />
+            </div>
             </ul>
+            </AnimatedBg>
+            
           </div>
         </div>
       </div>
