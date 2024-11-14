@@ -2,7 +2,20 @@
     {
         "id": 1,
         "icon": "icon flaticon-paper-plane",
-        "title": "Day Pass",
+        "title": "Dinner",
+        "price": 35.99,
+        "list1": "Dinner Only",
+        
+       
+        "btnLink": "buy-ticket",
+        "btnText": "BUY Ticket",
+        "animation": "fadeInUp",
+        "delay": 0
+    },
+    {
+        "id": 2,
+        "icon": "icon flaticon-paper-plane",
+        "title": "Dinner and Show",
         "price": 35.99,
         "list1": "Conference Tickets",
         "list1Class": "true",
@@ -17,10 +30,10 @@
         "btnLink": "buy-ticket",
         "btnText": "BUY Ticket",
         "animation": "fadeInUp",
-        "delay": 0
+        "delay": 400
     },
     {
-        "id": 2,
+        "id": 3,
         "icon": "icon flaticon-paper-plane",
         "title": "Day Pass",
         "price": 35.99,
@@ -40,7 +53,7 @@
         "delay": 400
     },
     {
-        "id": 3,
+        "id": 4,
         "icon": "icon flaticon-paper-plane",
         "title": "Day Pass",
         "price": 35.99,

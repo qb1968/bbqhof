@@ -20,7 +20,8 @@ const PriceV2 = ({ pricingClass }) => {
                 </div>
                 <div className="auto-container">
                     <div className="sec-title text-center">
-                        <span className="title">Get Ticket</span>
+                        <span className="title">Sponsor Packages</span>
+                        <h2>Become a sponsor for 2025 NCBBQHOF</h2>
                         <h2>Choose a Ticket</h2>
                     </div>
                     <div className="outer-box">

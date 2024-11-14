@@ -48,7 +48,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
               Ceremony
             </Link>
           </li> */}
-        {/* <li>
+        <li>
             {" "}
             <Link
               to="/buy-ticket#"
@@ -56,7 +56,7 @@ const MainMenu = ({ parentMenu, toggleMenu, toggleMultiMenu }) => {
             >
               Tickets
             </Link>
-          </li> */}
+          </li>
         <li>
           <Link to="/gallery2#" style={{ fontWeight: "bold", fontSize: "24px" }}>
             Event Gallery
