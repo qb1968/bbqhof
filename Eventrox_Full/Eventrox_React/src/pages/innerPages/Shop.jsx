@@ -36,6 +36,24 @@ const Shop = () => {
             borderBottom: "1rem solid black",
           }}
         >
+           <h1
+            style={{
+              color: "red",
+              fontWeight: "bold",
+              textAlign: "center",
+            }}
+          >
+            Just In Time For Christmas
+          </h1>
+          <h1
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              textAlign: "center",
+            }}
+          >
+            Combo Special any 2 for $40.00
+          </h1>
           <h2
             style={{
               color: "black",

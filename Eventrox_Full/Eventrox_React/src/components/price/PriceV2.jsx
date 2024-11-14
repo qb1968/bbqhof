@@ -7,7 +7,7 @@ const PriceV2 = ({ pricingClass }) => {
     return (
         <>
             <section className={`pricing-section-two ${pricingClass}`}>
-                <div className="anim-icons">
+                {/* <div className="anim-icons">
                     <ReactWOW animation='zoomIn'>
                         <span className="icon icon-line-1"></span>
                     </ReactWOW>
@@ -17,7 +17,7 @@ const PriceV2 = ({ pricingClass }) => {
                     <ReactWOW animation='zoomIn'>
                         <span className="icon icon-dots"></span>
                     </ReactWOW>
-                </div>
+                </div> */}
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         <span className="title">Sponsor Packages</span>

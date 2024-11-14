@@ -7,13 +7,13 @@ const PriceV3 = () => {
     return (
         <>
             <section className="pricing-section-three">
-                <div className="anim-icons">
+                {/* <div className="anim-icons">
                     <span className="icon icon-line-1 wow zoomIn"></span>
                     <ReactWOW animation='zoomIn'>
                         <span className="icon icon-circle-1"></span>
                     </ReactWOW>
                     <span className="icon icon-dots wow zoomIn"></span>
-                </div>
+                </div> */}
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         <span className="title">Get Ticket</span>

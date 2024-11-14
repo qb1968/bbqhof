@@ -2,6 +2,7 @@
     {
         "id": 1,
         "title": "Dinner Only",
+        "title2": "1 Dinner Ticket to NCBBQHOF",
         "price": 30,
         
         
@@ -13,8 +14,8 @@
     {
         "id": 2,
         "title": "Dinner & Josh Turner Concert",
+        "title2":"1 Dinner Ticket to NCBBQHOF and Platinum Section Seat to Concert",
         "price": 120,
-        
        
         "btnText": "BUY Ticket",
         "btnClass": "theme-btn btn-style-one",
@@ -26,7 +27,7 @@
         "title2": "prices start at:",
         
         "price":38,
-        
+        "featureList1":"Ticket prices go up to $138.00",
        
         "btnText": "BUY Ticket",
         "btnClass": "theme-btn btn-style-one",
