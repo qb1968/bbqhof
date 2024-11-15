@@ -2,7 +2,7 @@ import React from 'react';
 import ClientV1Data from '../../jsonData/client/ClientV1Data.json'
 import SingleClientV1 from './SingleClientV1';
 import ReactWOW from 'react-wow';
-
+import Ad from '../../../public/images/clients/1.png'
 
 const ClientV1 = () => {
     return (
@@ -10,6 +10,7 @@ const ClientV1 = () => {
             <section className="clients-section" style={{backgroundColor:"#dedede"}}>
                 
                 <div className="auto-container">
+                    
                     <div className="sec-title">
                         
                         <h2>Official Sponsors</h2>
