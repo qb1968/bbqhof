@@ -3,7 +3,7 @@ import ReactWOW from 'react-wow';
 import { HashLink as Link } from 'react-router-hash-link'
 
 const SinglePriceV2 = ({ price }) => {
-    const { icon, title, plan, list1, list2, list3, list4, list5,  btnText, animationName, delay } = price
+    const { icon, title, plan, list1, list2, list3,  list4, list5,  btnText, btnLink, animationName, delay } = price
 
     return (
         <>
@@ -21,7 +21,7 @@ const SinglePriceV2 = ({ price }) => {
                         <li className="">{list5}</li>
                     </ul>
                     <div className="btn-box">
-                        <Link to="/buy-ticket#" className="theme-btn btn-style-one"><span className="btn-title">{btnText}</span></Link>
+                        <Link to={btnLink} target='blank_' className="theme-btn btn-style-one"><span className="btn-title">{btnText}</span></Link>
                     </div>
                 </div>
             </ReactWOW>

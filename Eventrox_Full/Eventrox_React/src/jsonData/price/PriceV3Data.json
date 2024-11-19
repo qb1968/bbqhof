@@ -8,7 +8,7 @@
         
         "btnText": "BUY Ticket",
         "btnClass": "theme-btn btn-style-one",
-        "btnLink": "",
+        "btnLink": "https://buy.stripe.com/6oE4hX22G85H1awbJ2",
         "animationName": "fadeInUp"
     },
     {
@@ -16,22 +16,10 @@
         "title": "Dinner & Josh Turner Concert",
         "title2":"1 Dinner Ticket to NCBBQHOF and Platinum Section Seat to Concert",
         "price": 120,
-       
+        "btnLink": "https://buy.stripe.com/28o01H8r4dq106s8wR",
         "btnText": "BUY Ticket",
         "btnClass": "theme-btn btn-style-one",
-        "animationName": "fadeInUp"
-    },
-    {
-        "id": 2,
-        "title": "Josh Turner Concert Only",
-        "title2": "prices start at:",
-        
-        "price":38,
-        "featureList1":"Ticket prices go up to $138.00",
-       
-        "btnText": "BUY Ticket",
-        "btnClass": "theme-btn btn-style-one",
-        "btnLink": "https://thelibertyshowcase.com",
+
         "animationName": "fadeInUp"
     }
 ]

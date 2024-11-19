@@ -22,7 +22,7 @@ const PriceV3 = () => {
                     <div className="outer-box">
                         <div className="row">
                             {PriceV3Data.map(plan =>
-                                <div className="pricing-block-three col-lg-4 col-md-6 col-sm-12" key={plan.id}>
+                                <div className="pricing-block-three col-lg-6 col-md-6 col-sm-12" key={plan.id}>
                                     <SinglePriceV3 plan={plan} />
                                 </div>
                             )}

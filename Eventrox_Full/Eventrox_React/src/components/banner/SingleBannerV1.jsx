@@ -46,7 +46,7 @@ const SingleBannerV1 = ({ banner }) => {
     timingFunction="linear"
     className="section-styles"
   >
-                       <h1 style={{color:"white",fontSize:"72px"}}>The Perfect Christmas Gift</h1>
+                       <Link to="/buy-ticket"><h1 style={{color:"white",fontSize:"72px"}}>The Perfect Christmas Gift</h1><p style={{color:"white",fontSize:"16px"}}>Click Here</p></Link>
                         </AnimatedBg>
                       <img src={`/images/main-slider/${thumb2}`} alt="image"  />
                       <h1 style={{color:"white",fontSize:"72px"}}>2025</h1>
