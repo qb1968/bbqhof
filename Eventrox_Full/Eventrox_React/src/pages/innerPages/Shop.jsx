@@ -58,7 +58,7 @@ const Shop = () => {
     timingFunction="linear"
     className="section-styles"
   >
-                       <h1 style={{color:"white",fontSize:"48px",textAlign:"center"}}>The Perfect Christmas Gift</h1>
+                        <Link to="https://buy.stripe.com/4gwaGlazceu506s6oH" target='blank_'><h1 style={{color:"white",fontSize:"48px",textAlign:"center"}}>The Perfect Christmas Gift<p style={{color:"white",fontSize:"16px"}}>Click Here</p></h1></Link>
                         </AnimatedBg>
           <h2
             style={{
