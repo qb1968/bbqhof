@@ -2677,7 +2677,7 @@ img {
 .icon-line-1 {
 	width: 128px;
 	height: 128px;
-	background-image: url(../images/icons/icon-line-1.png);
+	background-image: url(../images/icons/flaticon-movie-tickets.png);
 }
 
 .icon-dots {
@@ -2695,7 +2695,7 @@ img {
 .icon-circle-1 {
 	width: 500px;
 	height: 500px;
-	background-image: url(../images/icons/icon-circle-1.png);
+	background-image: url(../images/icons/new.png);
 	background-size: 100%;
 }
 
@@ -5475,7 +5475,7 @@ img {
 	top: 5px;
 	font-size: 16px;
 	line-height: 30px;
-	content: "\52";
+	
 	font-family: 'ElegantIcons';
 	color: #2bd40f;
 }

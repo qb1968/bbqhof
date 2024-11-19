@@ -7,13 +7,13 @@ const PriceV3 = () => {
     return (
         <>
             <section className="pricing-section-three">
-                <div className="anim-icons">
+                {/* <div className="anim-icons">
                     <span className="icon icon-line-1 wow zoomIn"></span>
                     <ReactWOW animation='zoomIn'>
                         <span className="icon icon-circle-1"></span>
                     </ReactWOW>
                     <span className="icon icon-dots wow zoomIn"></span>
-                </div>
+                </div> */}
                 <div className="auto-container">
                     <div className="sec-title text-center">
                         <span className="title">Get Ticket</span>
@@ -22,7 +22,7 @@ const PriceV3 = () => {
                     <div className="outer-box">
                         <div className="row">
                             {PriceV3Data.map(plan =>
-                                <div className="pricing-block-three col-lg-4 col-md-6 col-sm-12" key={plan.id}>
+                                <div className="pricing-block-three col-lg-6 col-md-6 col-sm-12" key={plan.id}>
                                     <SinglePriceV3 plan={plan} />
                                 </div>
                             )}

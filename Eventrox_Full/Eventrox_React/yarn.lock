@@ -2297,7 +2297,7 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
 
-react-fast-compare@^3.1.1:
+react-fast-compare@^3.1.1, react-fast-compare@^3.2.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.2.tgz#929a97a532304ce9fee4bcae44234f1ce2c21d49"
   integrity sha512-nsO+KSNgo1SbJqJEYRE9ERzo7YtYbou/OqjSQKxV7jcKox7+usiUVZOAC+XnDOABXggQTno0Y1CpVnuWEc1boQ==
@@ -2418,6 +2418,13 @@ react-slick@^0.29.0:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
+
+react-snowfall@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/react-snowfall/-/react-snowfall-2.1.1.tgz#0ad21415b3256af4522b7264b3ad61be5ba22c7d"
+  integrity sha512-29F2U+skZc8uYYYzVP2Ub4mbc5nPH+0jYr1yXDysaPCnHdl9nVUN3h/ygg6PYw2LH53q6ZQCNfj30kVliaPvBg==
+  dependencies:
+    react-fast-compare "^3.2.2"
 
 react-timer-hook@^3.0.7:
   version "3.0.7"
@@ -2786,6 +2793,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
+
+surprise-santa@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/surprise-santa/-/surprise-santa-1.0.6.tgz#8bf6b2f040745418cad6a9f12d326946b992557c"
+  integrity sha512-EZxWhq0gEP4mtlBbyN8xR87DNEv+lC4E2NevUswUMVffDKrJHKBPUwWomhjFEKFdko549dlyUg0LdDyemNdMUA==
 
 text-table@^0.2.0:
   version "0.2.0"

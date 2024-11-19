@@ -3,6 +3,8 @@ import HeaderV1 from "../../components/header/HeaderV1";
 import FooterV1 from "../../components/footer/FooterV1";
 import { HashLink as Link } from "react-router-hash-link";
 import Dropdown from "react-bootstrap/Dropdown";
+import AnimatedBg from "react-animated-bg";
+import SurpriseSanta from 'surprise-santa';
 
 const Shop = () => {
   return (
@@ -28,14 +30,36 @@ const Shop = () => {
       <HeaderV1 headerStyle="header-style-two" parentMenu="about" />
       <span className="header-span"></span>
       <section className="">
+        
         <div
           className="container"
           style={{
+          
             padding: 20,
             marginBottom: 70,
+            marginTop:50,
             borderBottom: "1rem solid black",
           }}
         >
+           <SurpriseSanta minTime={10} maxTime={10} />
+          <h1
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              textAlign: "center",
+            }}
+          >
+            Combo Special any 2 for $40.00
+          </h1>
+          <AnimatedBg
+    colors={["red", "green"]}
+    duration={0}
+    delay={0.5} // it will wait 4 seconds before next transition starts
+    timingFunction="linear"
+    className="section-styles"
+  >
+                       <h1 style={{color:"white",fontSize:"48px",textAlign:"center"}}>The Perfect Christmas Gift</h1>
+                        </AnimatedBg>
           <h2
             style={{
               color: "black",

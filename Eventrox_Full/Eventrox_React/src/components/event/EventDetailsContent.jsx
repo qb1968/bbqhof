@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import ScheduleV1Data from '../../jsonData/schedule/ScheduleV1Data.json'
 import { NavHashLink as Link } from "react-router-hash-link";
 import ClientV1 from '../client/ClientV1';
+import PriceV1 from '../price/PriceV1';
 
 const EventDetailsContent = () => {
   const { parentId, childId } = useParams();
@@ -131,7 +132,7 @@ const EventDetailsContent = () => {
             </div>
             
           </div>
-          
+          <PriceV1/>
         </section>
         
       </>

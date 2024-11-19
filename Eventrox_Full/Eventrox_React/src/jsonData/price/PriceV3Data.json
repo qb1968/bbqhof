@@ -1,35 +1,25 @@
 [
     {
         "id": 1,
-        "title": "Person",
-        "price": 19,
-        "featureList1": "01 Conference Tickets",
-        "featureList2": "Free Lunch And Coffee",
-        "featureList3": "Certificate",
+        "title": "Dinner Only",
+        "title2": "1 Dinner Ticket to NCBBQHOF",
+        "price": 30,
+        
+        
         "btnText": "BUY Ticket",
         "btnClass": "theme-btn btn-style-one",
+        "btnLink": "https://buy.stripe.com/6oE4hX22G85H1awbJ2",
         "animationName": "fadeInUp"
     },
     {
         "id": 2,
-        "title": "family",
-        "price": 59,
-        "featureList1": "05 Conference Tickets",
-        "featureList2": "Free Lunch And Coffee",
-        "featureList3": "Certificate",
+        "title": "Dinner & Josh Turner Concert",
+        "title2":"1 Dinner Ticket to NCBBQHOF and Platinum Section Seat to Concert",
+        "price": 120,
+        "btnLink": "https://buy.stripe.com/28o01H8r4dq106s8wR",
         "btnText": "BUY Ticket",
         "btnClass": "theme-btn btn-style-one",
-        "animationName": "fadeInUp"
-    },
-    {
-        "id": 3,
-        "title": "group",
-        "price": 99,
-        "featureList1": "10 Conference Tickets",
-        "featureList2": "Free Lunch And Coffee",
-        "featureList3": "Certificate",
-        "btnText": "BUY Ticket",
-        "btnClass": "theme-btn btn-style-one",
+
         "animationName": "fadeInUp"
     }
 ]
