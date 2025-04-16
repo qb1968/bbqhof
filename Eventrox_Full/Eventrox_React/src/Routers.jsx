@@ -13,6 +13,7 @@ import Gallery2 from './pages/innerPages/Gallery2'
 import ComingSoon from './pages/innerPages/ComingSoon';
 import Speakers from './pages/innerPages/Speakers';
 import SpeakersDetail from './pages/innerPages/SpeakersDetail';
+import SpeakersDetail2 from './pages/innerPages/SpeakersDetail2';
 import Schedule from './pages/innerPages/Schedule';
 import EventDetails from './pages/innerPages/EventDetails';
 import BuyTicket from './pages/innerPages/BuyTicket';
@@ -42,6 +43,7 @@ const Routers = () => {
                 <Route path='/coming-soon' element={<ComingSoon />}></Route>
                 <Route path='/speakers' element={<Speakers />}></Route>
                 <Route path='/speakers-detail/:id' element={<SpeakersDetail />}></Route>
+                <Route path='/speakers-detail2/:id' element={<SpeakersDetail2 />}></Route>
                 <Route path='/schedule' element={<Schedule />}></Route>
                 <Route path='/event-detail/:parentId/:childId' element={<EventDetails />}></Route>
                 <Route path='/buy-ticket' element={<BuyTicket />}></Route>

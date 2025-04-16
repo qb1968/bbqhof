@@ -65,7 +65,7 @@ const BuyTicketContent = () => {
                     Join us at the Alliance Convention Center in Burlington, NC.
                     Doors will open at 5:00pm and dinner will be served at
                     5:30 pm. Awards presented by Miss North Carolina USA .
-                    {/* <img src="/images/resource/mnc.jpg" style={{width:200,display:"flex"}} /> */}
+                    <img src="/images/resource/NCUSA.png" style={{width:200,display:"flex"}} />
                      <br/><div style={{fontWeight:"bold"}}>If you are
                     planning to stay overnight call Best Western Plus of
                     Burlington and mention the NCBBQHOF for a special discounted
@@ -145,7 +145,7 @@ Turner’s global reach has surpassed 5.8B global streams, 6.5M album sales and 
             borderBottom: "1rem solid black",
           }}
         >
-           <SurpriseSanta minTime={10} maxTime={10} />
+           {/* <SurpriseSanta minTime={10} maxTime={10} />
           <h1
             style={{
               color: "black",
@@ -305,7 +305,7 @@ Turner’s global reach has surpassed 5.8B global streams, 6.5M album sales and 
                 style={{ width: 250 }}
               />
             </figure>
-          </div>
+          </div> */}
         </div>
           </div>
           

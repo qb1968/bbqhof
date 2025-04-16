@@ -27,7 +27,7 @@ const SingleBannerV1 = ({ banner }) => {
         className="slide-item"
         style={{ backgroundImage: `url(images/main-slider/${thumb}`}}
       >
-         <Snowfall snowflakeCount={300} color="white"  /> 
+         
          {/* Adjust snowflakeCount as needed */}
         <div className="auto-container">
           <div
@@ -39,17 +39,9 @@ const SingleBannerV1 = ({ banner }) => {
             }}
           >
             {/* <figure className="image"> */}
-            <AnimatedBg
-    colors={["red", "green"]}
-    duration={0}
-    delay={0.5} // it will wait 4 seconds before next transition starts
-    timingFunction="linear"
-    className="section-styles"
-  >
-                       <Link to="/buy-ticket"><h1 style={{color:"white",fontSize:"72px"}}>The Perfect Christmas Gift</h1><p style={{color:"white",fontSize:"16px"}}>Click Here</p></Link>
-                        </AnimatedBg>
+            
                       <img src={`/images/main-slider/${thumb2}`} alt="image"  />
-                      <h1 style={{color:"white",fontSize:"72px"}}>2025</h1>
+                      <h1 style={{color:"white",fontSize:"82px",fontWeight:"bold"}}>2025</h1>
                      
             {/* </figure> */}
             

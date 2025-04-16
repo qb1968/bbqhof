@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "thumb": "rb.jpeg",
+        
+        "name": "Red Bridges Barbecue Lodge",
+        "name2": "",
+        "designation": "Nominee",
+        "info": "In 1946, Red and Lyttle Bridges opened Cleveland County’s first barbecue joint, Dedmond’s Barbecue, located in the old Dedmond’s building on Highway 18. Just three years later, in 1949, the business moved to Uptown Shelby and was renamed Red Bridges Barbecue Lodge. In 1953, the restaurant found its forever home on Highway 74, where it stands today. On June 14, 1966, Red Bridges passed away, leaving his wife, Lyttle, to carry on the business. Lyttle worked tirelessly, day and night, until she retired at the age of 80. She passed away on February 29, 2008, leaving behind a legacy of hard work and dedication. Today, Red and Lyttle’s daughter, Debbie Webb, along with her children, Natalie Ramsey and Chase Webb, have carried on the family tradition. Debbie retired several years ago, and Natalie Ramsey continues to uphold the family’s legacy. For over 78 years, we’ve stayed true to the art of pit-cooked barbecue. We’re proud to be one of the few places left that slow cooks pork over hickory all night long—because we believe that’s the only way to get that true, old-fashioned flavor.",
+
+
+
+
+
+
+        
+        "thumb3":"ab1.1.png",
+        "thumb4":"ab5.png",
+        "image":"ab3.png",
+        "image1":"ab5.png"
+    },
+    {
+        "id": 2,
+        "thumb": "wilbers.jpg",
+        "name": "Wilber's Barbecue",
+        "name2": "",
+        "designation": "Nominee",
+        "info": "Wilber's Barbecue, a cornerstone of Eastern North Carolina's culinary heritage, has been serving authentic whole-hog barbecue since 1962. Founded by Wilber Shirley, the restaurant is located on U.S. Highway 70 in Goldsboro, making it a popular stop for locals and travelers alike. From its inception, Wilber's has remained committed to traditional barbecue methods, cooking split halves of whole hogs over oak coals in open pits. This dedication to authentic preparation has earned the establishment acclaim from both patrons and notable publications. Over the years, Wilber's has been featured in The New York Times, Garden & Gun, and Southern Living, and has welcomed distinguished guests, including U.S. Presidents and North Carolina Governors. In 2019, Wilber's temporarily closed its doors due to financial challenges. However, recognizing the restaurant's cultural significance, a group of dedicated supporters worked diligently to revive it. Their efforts culminated in a successful reopening in 2020, ensuring that the legacy of Wilber's Barbecue continues for future generations. Sadly, Wilber Shirley passed away in April 2021, but his commitment to quality and tradition lives on through the restaurant. Today, Wilber's Barbecue continues to serve its renowned dishes, including hand-chopped barbecue, baby back ribs, tender brisket, and homemade sides and desserts, all prepared with the same dedication that has defined the establishment for decades."
+
+
+
+
+
+
+
+
+    },
+    {
+        "id": 3,
+        "thumb": "bs bbq.png",
+        
+        "name": "B'S BBQ",
+        "name2": "",
+        "designation": "Nominee",
+        "info":"B’s Barbecue was started in 1977 by William “Bill” McLawhorn who gave up farming and bought what had been a convenience store just inside Greenville’s city limits. He and his wife, Peggy, came up with the recipe for the sauce. They both started cooking barbecue out back and serving it up front. Now they work out of a building on the road named after them, B’s Barbecue Road. With the support of the local community the business began to strive. 48 years later, nothing has changed. Now their three daughters Donna McLawhorn, Tammy Godley and Judy Drach run it. They still do not have a phone and only accept cash and checks. Despite the changing world, the daughters still try to stay true to what their mom and dad started over 48 years ago. Over the years all 5 of the grandchildren have also worked at B’s. They are very grateful for the legacy that their parents gave to them and are very thankful for their loyal supporters."
+        
+    }
+]

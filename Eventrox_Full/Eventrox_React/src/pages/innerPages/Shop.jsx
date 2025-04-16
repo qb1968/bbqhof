@@ -41,25 +41,9 @@ const Shop = () => {
             borderBottom: "1rem solid black",
           }}
         >
-           <SurpriseSanta minTime={10} maxTime={10} />
-          <h1
-            style={{
-              color: "black",
-              fontWeight: "bold",
-              textAlign: "center",
-            }}
-          >
-            Combo Special any 2 for $40.00
-          </h1>
-          <AnimatedBg
-    colors={["red", "green"]}
-    duration={0}
-    delay={0.5} // it will wait 4 seconds before next transition starts
-    timingFunction="linear"
-    className="section-styles"
-  >
-                        <Link to="https://buy.stripe.com/4gwaGlazceu506s6oH" target='blank_'><h1 style={{color:"white",fontSize:"48px",textAlign:"center"}}>The Perfect Christmas Gift<p style={{color:"white",fontSize:"16px"}}>Click Here</p></h1></Link>
-                        </AnimatedBg>
+           
+          
+          
           <h2
             style={{
               color: "black",
