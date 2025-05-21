@@ -59,12 +59,12 @@ const BuyTicketContent = () => {
                     BBQ, Skylight Inn BBQ, and Stamey's Barbecue
                   </p> */}
                   <p style={{ color: "black" }}>
-                    Dinner tickets are only $30.00 and can be purchased here.
+                    Dinner tickets are only $30.00 and can be purchased here. All proceeds are going to the ongoing Hurricane Relief Fund for our brothers and sisters in the NC Mountains thru United Carolinas Cavalry.
                   </p>
                   <p style={{ color: "black" }}>
                     Join us at the Alliance Convention Center in Burlington, NC.
                     Doors will open at 5:00pm and dinner will be served at
-                    5:30 pm. Awards presented by Miss North Carolina USA .
+                    5:30 pm. Event hosted by Fox 8's very own Van Denton. Awards presented by Miss North Carolina USA .
                     <img src="/images/resource/NCUSA.png" style={{width:200,display:"flex"}} />
                      <br/><div style={{fontWeight:"bold"}}>If you are
                     planning to stay overnight call Best Western Plus of
