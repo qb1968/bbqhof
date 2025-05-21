@@ -5,25 +5,38 @@
         "title": "Gold Sponsors",
         "clientData": [
             {
-                "id": 1,
-                "clientThumb": "cheerwine.png"
+                "id": 6,
+                "clientThumb": "cob.png",
+                "link": "https://burlingtonnc.gov/"
             },
-            {
+             {
                 "id": 2,
-                "clientThumb": "bw.png"
+                "clientThumb": "bw.png",
+                "link": "https://www.bestwestern.com/en_US/book/hotel-rooms.34053.html?iata=00171880&ssob=BLBWI0004G&cid=BLBWI0004G:google:gmb:34053"
             },
+            
+            {
+                "id": 1,
+                "clientThumb": "cheerwine.png",
+                "link": "https://cheerwine.com/"
+            },
+           
             {
                 "id": 3,
-                "clientThumb": "cb.png"
+                "clientThumb": "cb.png",
+                "link": "https://carolinapackers.com/"
             },
             {
                 "id": 5,
-                "clientThumb": "unifirst.png"
+                "clientThumb": "unifirst.png",
+                "link": "https://unifirst.com/"
             },
             {
                 "id": 4,
-                "clientThumb": "coffee.png"
+                "clientThumb": "coffee.png",
+                "link": "https://www.capcoff.com/"
             }
+            
         ]
     }
 ]
