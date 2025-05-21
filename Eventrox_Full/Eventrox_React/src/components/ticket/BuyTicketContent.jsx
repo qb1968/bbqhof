@@ -59,8 +59,9 @@ const BuyTicketContent = () => {
                     BBQ, Skylight Inn BBQ, and Stamey's Barbecue
                   </p> */}
                   <p style={{ color: "black" }}>
-                    Dinner tickets are only $30.00 and can be purchased here. All proceeds are going to the ongoing Hurricane Relief Fund for our brothers and sisters in the NC Mountains thru United Carolinas Cavalry.
+                    Dinner tickets are only $30.00 and can be purchased here. 
                   </p>
+                  <p style={{color: "black",fontWeight:"bold"}}>All proceeds are going to the ongoing Hurricane Relief Fund for our brothers and sisters in the NC Mountains thru United Carolinas Cavalry.</p>
                   <p style={{ color: "black" }}>
                     Join us at the Alliance Convention Center in Burlington, NC.
                     Doors will open at 5:00pm and dinner will be served at
