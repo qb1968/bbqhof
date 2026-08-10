@@ -1,0 +1,36 @@
+import React from 'react';
+import SpeakerV1Data from '../../jsonData/speaker/SpeakerV1Data.json'
+import SingleSpeakerV1 from './SingleSpeakerV1';
+import SpeakerV12Data from '../../jsonData/speaker/SpeakerV1Data2.json'
+import SingleSpeakerV12 from './SingleSpeakerV1.2';
+
+const SpeakerV1 = () => {
+    return (
+      <>
+        <section className="speakers-section">
+          <div className="auto-container">
+            <div className="sec-title light text-center">
+              <h2>2024 Inductees</h2>
+            </div>
+            <div
+              className="row"
+              style={{ display: "flex", justifyContent: "space-evenly" }}
+            >
+              {SpeakerV1Data.map((speaker) => (
+                <div
+                  className="speaker-block col-lg-3 col-md-6 col-sm-12"
+                  key={speaker.id}
+                >
+                  <SingleSpeakerV1 speaker={speaker} />
+                </div>
+              ))}
+            </div>
+            
+                </div>
+                
+        </section>
+      </>
+    );
+};
+
+export default SpeakerV1;

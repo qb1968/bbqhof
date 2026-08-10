@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "title": "Dinner Only",
+        "title2": "1 Dinner Ticket to NCBBQHOF",
+        "price": 30,
+        
+        
+        "btnText": "BUY Ticket",
+        "btnClass": "theme-btn btn-style-one",
+        "btnLink": "https://buy.stripe.com/6oE4hX22G85H1awbJ2",
+        "animationName": "fadeInUp"
+    },
+    {
+        "id": 2,
+        "title": "Dinner & Josh Turner Concert",
+        "title2":"1 Dinner Ticket to NCBBQHOF and Platinum Section Seat to Concert",
+        "price": 120,
+        "btnLink": "https://buy.stripe.com/28o01H8r4dq106s8wR",
+        "btnText": "BUY Ticket",
+        "btnClass": "theme-btn btn-style-one",
+
+        "animationName": "fadeInUp"
+    }
+]
